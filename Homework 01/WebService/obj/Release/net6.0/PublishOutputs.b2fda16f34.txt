@@ -1,0 +1,7 @@
+C:\Users\Matthew\Documents\Local Programming\Web Services\Homework 01\WebService\bin\Release\net6.0\publish\WebService.exe
+C:\Users\Matthew\Documents\Local Programming\Web Services\Homework 01\WebService\bin\Release\net6.0\publish\appsettings.Development.json
+C:\Users\Matthew\Documents\Local Programming\Web Services\Homework 01\WebService\bin\Release\net6.0\publish\appsettings.json
+C:\Users\Matthew\Documents\Local Programming\Web Services\Homework 01\WebService\bin\Release\net6.0\publish\WebService.dll
+C:\Users\Matthew\Documents\Local Programming\Web Services\Homework 01\WebService\bin\Release\net6.0\publish\WebService.deps.json
+C:\Users\Matthew\Documents\Local Programming\Web Services\Homework 01\WebService\bin\Release\net6.0\publish\WebService.runtimeconfig.json
+C:\Users\Matthew\Documents\Local Programming\Web Services\Homework 01\WebService\bin\Release\net6.0\publish\WebService.pdb
