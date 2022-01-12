@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "0829d060-9211-4e0e-8c81-fce65073e6da": {
+      "ProjectGuid": "0829d060-9211-4e0e-8c81-fce65073e6da",
+      "DisplayName": "CompanyEmployees",
+      "ColorIndex": 0
+    },
+    "55ff0d6e-42b4-4db5-9bd0-4372991462a1": {
+      "ProjectGuid": "55ff0d6e-42b4-4db5-9bd0-4372991462a1",
+      "DisplayName": "MiddlewareExample",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}
