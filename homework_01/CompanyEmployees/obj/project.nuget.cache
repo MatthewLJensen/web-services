@@ -1,8 +1,18 @@
 {
   "version": 2,
-  "dgSpecHash": "mC0l/T/o3M5e3K9q+KLZQb5JExUFWU2P2G3OaW/BerQWHB+Pgz0+vBRP8LX5Ct9dVJbeWiESYiL3GEonCu3HMw==",
+  "dgSpecHash": "ajdXDbPTcYzWXrwJUH2sr5Og9LBxAEZJlrciq+M94bcwnTFRw6qi6qQNUrAhqj2rwDZ0YHIc492u2BcyziFRwA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Matthew\\Documents\\Local Programming\\Web Services\\homework_01\\CompanyEmployees\\CompanyEmployees.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\Matthew\\Documents\\Local Programming\\web-services\\homework_01\\CompanyEmployees\\CompanyEmployees.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Matthew\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\5.0.0\\microsoft.extensions.configuration.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\Matthew\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\5.0.0\\microsoft.extensions.dependencyinjection.5.0.0.nupkg.sha512",
+    "C:\\Users\\Matthew\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0\\microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\Matthew\\.nuget\\packages\\microsoft.extensions.logging\\5.0.0\\microsoft.extensions.logging.5.0.0.nupkg.sha512",
+    "C:\\Users\\Matthew\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\5.0.0\\microsoft.extensions.logging.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\Matthew\\.nuget\\packages\\microsoft.extensions.options\\5.0.0\\microsoft.extensions.options.5.0.0.nupkg.sha512",
+    "C:\\Users\\Matthew\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512",
+    "C:\\Users\\Matthew\\.nuget\\packages\\nlog\\4.7.11\\nlog.4.7.11.nupkg.sha512",
+    "C:\\Users\\Matthew\\.nuget\\packages\\nlog.extensions.logging\\1.7.4\\nlog.extensions.logging.1.7.4.nupkg.sha512"
+  ],
   "logs": []
 }
