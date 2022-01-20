@@ -35,7 +35,17 @@
       "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
       "DisplayName": "Miscellaneous Files",
       "ColorIndex": -1
+    },
+    "8ac438e0-de9c-45bf-86dd-7f7b9baab499": {
+      "ProjectGuid": "8ac438e0-de9c-45bf-86dd-7f7b9baab499",
+      "DisplayName": "Service.Contracts",
+      "ColorIndex": 6
+    },
+    "30cfb963-a401-490f-a570-745636b27ea2": {
+      "ProjectGuid": "30cfb963-a401-490f-a570-745636b27ea2",
+      "DisplayName": "Service",
+      "ColorIndex": 7
     }
   },
-  "NextColorIndex": 6
+  "NextColorIndex": 8
 }

@@ -1,0 +1,11 @@
+C:\Users\Matthew\Documents\Local Programming\web-services\homework_01\Service.Contracts\bin\Debug\net6.0\Service.Contracts.deps.json
+C:\Users\Matthew\Documents\Local Programming\web-services\homework_01\Service.Contracts\bin\Debug\net6.0\Service.Contracts.dll
+C:\Users\Matthew\Documents\Local Programming\web-services\homework_01\Service.Contracts\bin\Debug\net6.0\ref\Service.Contracts.dll
+C:\Users\Matthew\Documents\Local Programming\web-services\homework_01\Service.Contracts\bin\Debug\net6.0\Service.Contracts.pdb
+C:\Users\Matthew\Documents\Local Programming\web-services\homework_01\Service.Contracts\obj\Debug\net6.0\Service.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Matthew\Documents\Local Programming\web-services\homework_01\Service.Contracts\obj\Debug\net6.0\Service.Contracts.AssemblyInfoInputs.cache
+C:\Users\Matthew\Documents\Local Programming\web-services\homework_01\Service.Contracts\obj\Debug\net6.0\Service.Contracts.AssemblyInfo.cs
+C:\Users\Matthew\Documents\Local Programming\web-services\homework_01\Service.Contracts\obj\Debug\net6.0\Service.Contracts.csproj.CoreCompileInputs.cache
+C:\Users\Matthew\Documents\Local Programming\web-services\homework_01\Service.Contracts\obj\Debug\net6.0\Service.Contracts.dll
+C:\Users\Matthew\Documents\Local Programming\web-services\homework_01\Service.Contracts\obj\Debug\net6.0\ref\Service.Contracts.dll
+C:\Users\Matthew\Documents\Local Programming\web-services\homework_01\Service.Contracts\obj\Debug\net6.0\Service.Contracts.pdb

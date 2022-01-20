@@ -13,3 +13,5 @@ C:\Users\Matthew\Documents\Local Programming\web-services\homework_01\Repository
 C:\Users\Matthew\Documents\Local Programming\web-services\homework_01\Repository\obj\Debug\net6.0\Repository.dll
 C:\Users\Matthew\Documents\Local Programming\web-services\homework_01\Repository\obj\Debug\net6.0\ref\Repository.dll
 C:\Users\Matthew\Documents\Local Programming\web-services\homework_01\Repository\obj\Debug\net6.0\Repository.pdb
+C:\Users\Matthew\Documents\Local Programming\web-services\homework_01\Repository\bin\Debug\net6.0\Contracts.dll
+C:\Users\Matthew\Documents\Local Programming\web-services\homework_01\Repository\bin\Debug\net6.0\Contracts.pdb
