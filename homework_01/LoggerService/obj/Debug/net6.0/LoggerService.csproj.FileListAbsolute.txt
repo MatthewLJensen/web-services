@@ -13,3 +13,5 @@ C:\Users\Matthew\Documents\Local Programming\web-services\homework_01\LoggerServ
 C:\Users\Matthew\Documents\Local Programming\web-services\homework_01\LoggerService\obj\Debug\net6.0\LoggerService.dll
 C:\Users\Matthew\Documents\Local Programming\web-services\homework_01\LoggerService\obj\Debug\net6.0\ref\LoggerService.dll
 C:\Users\Matthew\Documents\Local Programming\web-services\homework_01\LoggerService\obj\Debug\net6.0\LoggerService.pdb
+C:\Users\Matthew\Documents\Local Programming\web-services\homework_01\LoggerService\bin\Debug\net6.0\Entities.dll
+C:\Users\Matthew\Documents\Local Programming\web-services\homework_01\LoggerService\bin\Debug\net6.0\Entities.pdb

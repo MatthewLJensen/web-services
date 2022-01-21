@@ -45,7 +45,12 @@
       "ProjectGuid": "30cfb963-a401-490f-a570-745636b27ea2",
       "DisplayName": "Service",
       "ColorIndex": 7
+    },
+    "b537581a-bb3a-4984-b505-2fc90ad64615": {
+      "ProjectGuid": "b537581a-bb3a-4984-b505-2fc90ad64615",
+      "DisplayName": "CompanyEmployees.Presentation",
+      "ColorIndex": 8
     }
   },
-  "NextColorIndex": 8
+  "NextColorIndex": 9
 }

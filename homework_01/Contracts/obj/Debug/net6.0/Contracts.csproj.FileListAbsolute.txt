@@ -10,3 +10,6 @@ C:\Users\Matthew\Documents\Local Programming\web-services\homework_01\Contracts\
 C:\Users\Matthew\Documents\Local Programming\web-services\homework_01\Contracts\obj\Debug\net6.0\Contracts.dll
 C:\Users\Matthew\Documents\Local Programming\web-services\homework_01\Contracts\obj\Debug\net6.0\ref\Contracts.dll
 C:\Users\Matthew\Documents\Local Programming\web-services\homework_01\Contracts\obj\Debug\net6.0\Contracts.pdb
+C:\Users\Matthew\Documents\Local Programming\web-services\homework_01\Contracts\bin\Debug\net6.0\Entities.dll
+C:\Users\Matthew\Documents\Local Programming\web-services\homework_01\Contracts\bin\Debug\net6.0\Entities.pdb
+C:\Users\Matthew\Documents\Local Programming\web-services\homework_01\Contracts\obj\Debug\net6.0\Contracts.csproj.CopyComplete

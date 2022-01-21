@@ -15,3 +15,5 @@ C:\Users\Matthew\Documents\Local Programming\web-services\homework_01\Service\ob
 C:\Users\Matthew\Documents\Local Programming\web-services\homework_01\Service\obj\Debug\net6.0\Service.dll
 C:\Users\Matthew\Documents\Local Programming\web-services\homework_01\Service\obj\Debug\net6.0\ref\Service.dll
 C:\Users\Matthew\Documents\Local Programming\web-services\homework_01\Service\obj\Debug\net6.0\Service.pdb
+C:\Users\Matthew\Documents\Local Programming\web-services\homework_01\Service\bin\Debug\net6.0\Entities.dll
+C:\Users\Matthew\Documents\Local Programming\web-services\homework_01\Service\bin\Debug\net6.0\Entities.pdb

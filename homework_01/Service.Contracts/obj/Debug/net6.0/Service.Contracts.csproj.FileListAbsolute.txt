@@ -9,3 +9,7 @@ C:\Users\Matthew\Documents\Local Programming\web-services\homework_01\Service.Co
 C:\Users\Matthew\Documents\Local Programming\web-services\homework_01\Service.Contracts\obj\Debug\net6.0\Service.Contracts.dll
 C:\Users\Matthew\Documents\Local Programming\web-services\homework_01\Service.Contracts\obj\Debug\net6.0\ref\Service.Contracts.dll
 C:\Users\Matthew\Documents\Local Programming\web-services\homework_01\Service.Contracts\obj\Debug\net6.0\Service.Contracts.pdb
+C:\Users\Matthew\Documents\Local Programming\web-services\homework_01\Service.Contracts\bin\Debug\net6.0\Entities.dll
+C:\Users\Matthew\Documents\Local Programming\web-services\homework_01\Service.Contracts\bin\Debug\net6.0\Entities.pdb
+C:\Users\Matthew\Documents\Local Programming\web-services\homework_01\Service.Contracts\obj\Debug\net6.0\Service.Contracts.csproj.AssemblyReference.cache
+C:\Users\Matthew\Documents\Local Programming\web-services\homework_01\Service.Contracts\obj\Debug\net6.0\Service.Contracts.csproj.CopyComplete
