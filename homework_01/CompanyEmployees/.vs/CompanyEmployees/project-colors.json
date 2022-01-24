@@ -50,7 +50,12 @@
       "ProjectGuid": "b537581a-bb3a-4984-b505-2fc90ad64615",
       "DisplayName": "CompanyEmployees.Presentation",
       "ColorIndex": 8
+    },
+    "cd799c0b-002f-411b-b5e3-563941c732b0": {
+      "ProjectGuid": "cd799c0b-002f-411b-b5e3-563941c732b0",
+      "DisplayName": "Shared",
+      "ColorIndex": 9
     }
   },
-  "NextColorIndex": 9
+  "NextColorIndex": 10
 }

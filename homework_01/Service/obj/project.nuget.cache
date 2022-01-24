@@ -1,8 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "a6QfAneJ4AfYW2VXcqF+ihpkYiKrgFUW+ZHeL+wr6k8sx6rvL9DbeMjksqlvxp+lmlxxKoO1cUVcyVQebEJdZQ==",
+  "dgSpecHash": "3H4B+dJdNefl/vY8Y75H2T/qVZiXdwrwZgj6q5U0tfkj4+1DLkdkscei2gXLmobYHy9gU1k9H/urelCSN3QyKQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Matthew\\Documents\\Local Programming\\web-services\\homework_01\\Service\\Service.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Matthew\\.nuget\\packages\\automapper\\11.0.0\\automapper.11.0.0.nupkg.sha512",
+    "C:\\Users\\Matthew\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
+    "C:\\Users\\Matthew\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\Matthew\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\Matthew\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
+    "C:\\Users\\Matthew\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\Matthew\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
