@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using Shared.DataTransferObjects;
+using static Shared.DataTransferObjects.CompanyDto;
 
 public class MappingProfile : Profile
 {
@@ -10,6 +11,8 @@ public class MappingProfile : Profile
         opt => opt.MapFrom(x => string.Join(' ', x.Address, x.Country)));
         
         CreateMap<Employee, EmployeeDto>();
+
+        CreateMap<CompanyForCreationDto, Company>();
     }
 
 
