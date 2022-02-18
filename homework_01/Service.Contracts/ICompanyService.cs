@@ -17,3 +17,4 @@ namespace Service.Contracts
         Task UpdateCompanyAsync(Guid companyid, CompanyForUpdateDto companyForUpdate,
         bool trackChanges);
     }
+}

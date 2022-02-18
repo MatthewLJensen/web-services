@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KXZW2ASMMaed9MI9gH/ipqhdLnlxUhn8wR1oTC4akaKIeNRbMKuoA5qDOk+6FuWNj9wE1zRZl0GeaJma5z0xXA==",
+  "dgSpecHash": "3MMKHTXzQbVoehEKs2TjyOKbeEDF+OAOfz/UMO7AYwEgPVTFqWAEJRQDcUR74wtXNg/zAWN/VRR2bWNiWXziAw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Matthew\\Documents\\Local Programming\\Web Services\\homework_01\\MiddlewareExample\\MiddlewareExample.csproj",
+  "projectFilePath": "C:\\Users\\Matthew\\Documents\\Local Programming\\web-services\\homework_01\\MiddlewareExample\\MiddlewareExample.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
