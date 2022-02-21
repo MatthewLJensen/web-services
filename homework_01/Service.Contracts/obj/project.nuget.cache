@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rsRIrAOpb322Reji2sXSzLkyS1mRTCOG1t4bwqzou+qHxjiUn+MBNX0KdtOb6dWbYNnNJn+xXXdnAVzuuJ3qbQ==",
+  "dgSpecHash": "ZspW76C4Bs6HHFnmmCmBj+IEAe4i+N8onNz9Nw0/Qvx7ENGGVwhbbIwgRqUFHH9q++wGyMbMRHP3JhOh3HMojw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Matthew\\Documents\\Local Programming\\web-services\\homework_01\\Service.Contracts\\Service.Contracts.csproj",
+  "projectFilePath": "C:\\Users\\Matthew\\Documents\\Local Programming\\Web Services\\homework_01\\Service.Contracts\\Service.Contracts.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
