@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Service.Contracts;
-using static Shared.DataTransferObjects.CompanyDto;
+using Shared.DataTransferObjects;
+
 
 namespace CompanyEmployees.Presentation.Controllers
 {
@@ -30,6 +31,8 @@ namespace CompanyEmployees.Presentation.Controllers
         {
             if (company is null)
                 return BadRequest("CompanyForCreationDto object is null");
+            if (!ModelState.IsValid)
+                return UnprocessableEntity(ModelState);
             var createdCompany = await _service.CompanyService.CreateCompanyAsync(company);
             return CreatedAtRoute("CompanyById", new { id = createdCompany.Id },
             createdCompany);

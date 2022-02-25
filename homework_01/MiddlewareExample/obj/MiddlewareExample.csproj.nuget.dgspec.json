@@ -1,21 +1,18 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Matthew\\Documents\\Local Programming\\web-services\\homework_01\\MiddlewareExample\\MiddlewareExample.csproj": {}
+    "C:\\Users\\Matthew\\Documents\\Local Programming\\Web Services\\homework_01\\MiddlewareExample\\MiddlewareExample.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Matthew\\Documents\\Local Programming\\web-services\\homework_01\\MiddlewareExample\\MiddlewareExample.csproj": {
+    "C:\\Users\\Matthew\\Documents\\Local Programming\\Web Services\\homework_01\\MiddlewareExample\\MiddlewareExample.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Matthew\\Documents\\Local Programming\\web-services\\homework_01\\MiddlewareExample\\MiddlewareExample.csproj",
+        "projectUniqueName": "C:\\Users\\Matthew\\Documents\\Local Programming\\Web Services\\homework_01\\MiddlewareExample\\MiddlewareExample.csproj",
         "projectName": "MiddlewareExample",
-        "projectPath": "C:\\Users\\Matthew\\Documents\\Local Programming\\web-services\\homework_01\\MiddlewareExample\\MiddlewareExample.csproj",
+        "projectPath": "C:\\Users\\Matthew\\Documents\\Local Programming\\Web Services\\homework_01\\MiddlewareExample\\MiddlewareExample.csproj",
         "packagesPath": "C:\\Users\\Matthew\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Matthew\\Documents\\Local Programming\\web-services\\homework_01\\MiddlewareExample\\obj\\",
+        "outputPath": "C:\\Users\\Matthew\\Documents\\Local Programming\\Web Services\\homework_01\\MiddlewareExample\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
           "C:\\Users\\Matthew\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"

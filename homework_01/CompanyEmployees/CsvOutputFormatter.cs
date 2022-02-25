@@ -32,7 +32,7 @@ public class CsvOutputFormatter : TextOutputFormatter
                 FormatCsv(buffer, company);
             }
         }
-        else
+        else if (context.Object != null)
         {
             FormatCsv(buffer, (CompanyDto)context.Object);
         }

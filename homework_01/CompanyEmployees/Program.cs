@@ -31,8 +31,10 @@ builder.Services.Configure<ApiBehaviorOptions>(options =>
 });
 
 NewtonsoftJsonPatchInputFormatter GetJsonPatchInputFormatter() =>
+#pragma warning disable ASP0000 // Do not call 'IServiceCollection.BuildServiceProvider' in 'ConfigureServices'
 new ServiceCollection().AddLogging().AddMvc().AddNewtonsoftJson()
 .Services.BuildServiceProvider()
+#pragma warning restore ASP0000 // Do not call 'IServiceCollection.BuildServiceProvider' in 'ConfigureServices'
 .GetRequiredService<IOptions<MvcOptions>>().Value.InputFormatters
 .OfType<NewtonsoftJsonPatchInputFormatter>().First();
 

@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 public abstract record CompanyForManipulationDto
 {
 
-    public Guid Id { get; init; }
+//    public Guid Id { get; init; }
 
     [Required(ErrorMessage = "Company name is a required field.")]
     [MaxLength(60, ErrorMessage = "Maximum length for the Name is 60 characters.")]
@@ -16,5 +16,6 @@ public abstract record CompanyForManipulationDto
 
     public string? Country { get; init; }
 
+    public IEnumerable<EmployeeForCreationDto>? Employees { get; init; }
 
 }

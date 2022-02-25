@@ -1,23 +1,3 @@
-C:\Users\Matthew\Documents\Local Programming\Web Services\homework_01\MiddlewareExample\bin\Debug\net6.0\appsettings.Development.json
-C:\Users\Matthew\Documents\Local Programming\Web Services\homework_01\MiddlewareExample\bin\Debug\net6.0\appsettings.json
-C:\Users\Matthew\Documents\Local Programming\Web Services\homework_01\MiddlewareExample\bin\Debug\net6.0\MiddlewareExample.exe
-C:\Users\Matthew\Documents\Local Programming\Web Services\homework_01\MiddlewareExample\bin\Debug\net6.0\MiddlewareExample.deps.json
-C:\Users\Matthew\Documents\Local Programming\Web Services\homework_01\MiddlewareExample\bin\Debug\net6.0\MiddlewareExample.runtimeconfig.json
-C:\Users\Matthew\Documents\Local Programming\Web Services\homework_01\MiddlewareExample\bin\Debug\net6.0\MiddlewareExample.dll
-C:\Users\Matthew\Documents\Local Programming\Web Services\homework_01\MiddlewareExample\bin\Debug\net6.0\ref\MiddlewareExample.dll
-C:\Users\Matthew\Documents\Local Programming\Web Services\homework_01\MiddlewareExample\bin\Debug\net6.0\MiddlewareExample.pdb
-C:\Users\Matthew\Documents\Local Programming\Web Services\homework_01\MiddlewareExample\obj\Debug\net6.0\MiddlewareExample.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Matthew\Documents\Local Programming\Web Services\homework_01\MiddlewareExample\obj\Debug\net6.0\MiddlewareExample.AssemblyInfoInputs.cache
-C:\Users\Matthew\Documents\Local Programming\Web Services\homework_01\MiddlewareExample\obj\Debug\net6.0\MiddlewareExample.AssemblyInfo.cs
-C:\Users\Matthew\Documents\Local Programming\Web Services\homework_01\MiddlewareExample\obj\Debug\net6.0\MiddlewareExample.csproj.CoreCompileInputs.cache
-C:\Users\Matthew\Documents\Local Programming\Web Services\homework_01\MiddlewareExample\obj\Debug\net6.0\MiddlewareExample.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\Matthew\Documents\Local Programming\Web Services\homework_01\MiddlewareExample\obj\Debug\net6.0\staticwebassets.build.json
-C:\Users\Matthew\Documents\Local Programming\Web Services\homework_01\MiddlewareExample\obj\Debug\net6.0\staticwebassets.development.json
-C:\Users\Matthew\Documents\Local Programming\Web Services\homework_01\MiddlewareExample\obj\Debug\net6.0\scopedcss\bundle\MiddlewareExample.styles.css
-C:\Users\Matthew\Documents\Local Programming\Web Services\homework_01\MiddlewareExample\obj\Debug\net6.0\MiddlewareExample.dll
-C:\Users\Matthew\Documents\Local Programming\Web Services\homework_01\MiddlewareExample\obj\Debug\net6.0\ref\MiddlewareExample.dll
-C:\Users\Matthew\Documents\Local Programming\Web Services\homework_01\MiddlewareExample\obj\Debug\net6.0\MiddlewareExample.pdb
-C:\Users\Matthew\Documents\Local Programming\Web Services\homework_01\MiddlewareExample\obj\Debug\net6.0\MiddlewareExample.genruntimeconfig.cache
 C:\Users\Matthew\Documents\Local Programming\web-services\homework_01\MiddlewareExample\bin\Debug\net6.0\appsettings.Development.json
 C:\Users\Matthew\Documents\Local Programming\web-services\homework_01\MiddlewareExample\bin\Debug\net6.0\appsettings.json
 C:\Users\Matthew\Documents\Local Programming\web-services\homework_01\MiddlewareExample\bin\Debug\net6.0\MiddlewareExample.exe
@@ -39,3 +19,24 @@ C:\Users\Matthew\Documents\Local Programming\web-services\homework_01\Middleware
 C:\Users\Matthew\Documents\Local Programming\web-services\homework_01\MiddlewareExample\obj\Debug\net6.0\ref\MiddlewareExample.dll
 C:\Users\Matthew\Documents\Local Programming\web-services\homework_01\MiddlewareExample\obj\Debug\net6.0\MiddlewareExample.pdb
 C:\Users\Matthew\Documents\Local Programming\web-services\homework_01\MiddlewareExample\obj\Debug\net6.0\MiddlewareExample.genruntimeconfig.cache
+C:\Users\Matthew\Documents\Local Programming\Web Services\homework_01\MiddlewareExample\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Matthew\Documents\Local Programming\Web Services\homework_01\MiddlewareExample\bin\Debug\net6.0\appsettings.json
+C:\Users\Matthew\Documents\Local Programming\Web Services\homework_01\MiddlewareExample\bin\Debug\net6.0\MiddlewareExample.exe
+C:\Users\Matthew\Documents\Local Programming\Web Services\homework_01\MiddlewareExample\bin\Debug\net6.0\MiddlewareExample.deps.json
+C:\Users\Matthew\Documents\Local Programming\Web Services\homework_01\MiddlewareExample\bin\Debug\net6.0\MiddlewareExample.runtimeconfig.json
+C:\Users\Matthew\Documents\Local Programming\Web Services\homework_01\MiddlewareExample\bin\Debug\net6.0\MiddlewareExample.dll
+C:\Users\Matthew\Documents\Local Programming\Web Services\homework_01\MiddlewareExample\bin\Debug\net6.0\ref\MiddlewareExample.dll
+C:\Users\Matthew\Documents\Local Programming\Web Services\homework_01\MiddlewareExample\bin\Debug\net6.0\MiddlewareExample.pdb
+C:\Users\Matthew\Documents\Local Programming\Web Services\homework_01\MiddlewareExample\obj\Debug\net6.0\MiddlewareExample.csproj.AssemblyReference.cache
+C:\Users\Matthew\Documents\Local Programming\Web Services\homework_01\MiddlewareExample\obj\Debug\net6.0\MiddlewareExample.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Matthew\Documents\Local Programming\Web Services\homework_01\MiddlewareExample\obj\Debug\net6.0\MiddlewareExample.AssemblyInfoInputs.cache
+C:\Users\Matthew\Documents\Local Programming\Web Services\homework_01\MiddlewareExample\obj\Debug\net6.0\MiddlewareExample.AssemblyInfo.cs
+C:\Users\Matthew\Documents\Local Programming\Web Services\homework_01\MiddlewareExample\obj\Debug\net6.0\MiddlewareExample.csproj.CoreCompileInputs.cache
+C:\Users\Matthew\Documents\Local Programming\Web Services\homework_01\MiddlewareExample\obj\Debug\net6.0\MiddlewareExample.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Matthew\Documents\Local Programming\Web Services\homework_01\MiddlewareExample\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Matthew\Documents\Local Programming\Web Services\homework_01\MiddlewareExample\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Matthew\Documents\Local Programming\Web Services\homework_01\MiddlewareExample\obj\Debug\net6.0\scopedcss\bundle\MiddlewareExample.styles.css
+C:\Users\Matthew\Documents\Local Programming\Web Services\homework_01\MiddlewareExample\obj\Debug\net6.0\MiddlewareExample.dll
+C:\Users\Matthew\Documents\Local Programming\Web Services\homework_01\MiddlewareExample\obj\Debug\net6.0\ref\MiddlewareExample.dll
+C:\Users\Matthew\Documents\Local Programming\Web Services\homework_01\MiddlewareExample\obj\Debug\net6.0\MiddlewareExample.pdb
+C:\Users\Matthew\Documents\Local Programming\Web Services\homework_01\MiddlewareExample\obj\Debug\net6.0\MiddlewareExample.genruntimeconfig.cache

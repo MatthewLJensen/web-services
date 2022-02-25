@@ -13,7 +13,7 @@ public class EmployeeRepository : RepositoryBase<Employee>, IEmployeeRepository
     .OrderBy(e => e.Name).ToListAsync();
 
 
-    public async Task<Employee> GetEmployeeAsync(Guid companyId, Guid id, bool trackChanges) =>
+    public async Task<Employee?> GetEmployeeAsync(Guid companyId, Guid id, bool trackChanges) =>
         await FindByCondition(e => e.CompanyId.Equals(companyId) && e.Id.Equals(id),
         trackChanges)
         .SingleOrDefaultAsync();
