@@ -201,6 +201,9 @@
             "projectReferences": {
               "C:\\Users\\Matthew\\Documents\\Local Programming\\web-services\\homework_01\\Entities\\Entities.csproj": {
                 "projectPath": "C:\\Users\\Matthew\\Documents\\Local Programming\\web-services\\homework_01\\Entities\\Entities.csproj"
+              },
+              "C:\\Users\\Matthew\\Documents\\Local Programming\\web-services\\homework_01\\Shared\\Shared.csproj": {
+                "projectPath": "C:\\Users\\Matthew\\Documents\\Local Programming\\web-services\\homework_01\\Shared\\Shared.csproj"
               }
             }
           }
