@@ -19,11 +19,11 @@ namespace Service
             _mapper = mapper;
 
         }
-        public async Task<IEnumerable<CompanyDto>> GetAllCompaniesAsync(bool trackChanges)
+        public async Task<(IEnumerable<CompanyDto> companies, MetaData metaData)> GetAllCompaniesAsync(CompanyParameters companyParameters, bool trackChanges)
         {
-            var companies = await _repository.Company.GetAllCompaniesAsync(trackChanges);
-            var companiesDto = _mapper.Map<IEnumerable<CompanyDto>>(companies);
-            return companiesDto;
+            var companiesWithMetaData = await _repository.Company.GetAllCompaniesAsync(companyParameters, trackChanges);
+            var companiesDto = _mapper.Map<IEnumerable<CompanyDto>>(companiesWithMetaData);
+            return (companies: companiesDto, metaData: companiesWithMetaData.MetaData);
         }
         public async Task<CompanyDto> GetCompanyAsync(Guid id, bool trackChanges)
         {

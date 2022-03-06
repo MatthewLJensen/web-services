@@ -3,15 +3,20 @@ using Microsoft.EntityFrameworkCore;
 
 internal sealed class CompanyRepository : RepositoryBase<Company>, ICompanyRepository
 {
-    public CompanyRepository(RepositoryContext repositoryContext)
-    : base(repositoryContext)
+    public CompanyRepository(RepositoryContext repositoryContext) : base(repositoryContext)
     {
     }
 
-    public async Task<IEnumerable<Company>> GetAllCompaniesAsync(bool trackChanges) =>
-    await FindAll(trackChanges)
-    .OrderBy(c => c.Name)
-    .ToListAsync();
+    public async Task<PagedList<Company>> GetAllCompaniesAsync(CompanyParameters companyParameters, bool trackChanges)
+    {
+        var companies = await FindAll(trackChanges)
+        .OrderBy(c => c.Name)
+        .ToListAsync();
+
+        return PagedList<Company>
+            .ToPagedList(companies, companyParameters.PageNumber, companyParameters.PageSize);
+    }
+
 
     public async Task<Company?> GetCompanyAsync(Guid companyId, bool trackChanges) =>
     await FindByCondition(c => c.Id.Equals(companyId), trackChanges)
