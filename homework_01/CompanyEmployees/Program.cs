@@ -22,6 +22,8 @@ builder.Services.AddScoped<ValidationFilterAttribute>();
 builder.Services.AddControllers();
 
 builder.Services.ConfigureRepositoryManager();
+
+
 builder.Services.ConfigureServiceManager();
 
 builder.Services.ConfigureSqlContext(builder.Configuration);
@@ -55,7 +57,10 @@ var app = builder.Build();
 var logger = app.Services.GetRequiredService<ILoggerManager>();
 
 // adding middleware to the App
+
 app.ConfigureExceptionHandler(logger);
+
+
 if (app.Environment.IsProduction())
     app.UseHsts();
 

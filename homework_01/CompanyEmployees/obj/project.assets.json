@@ -5070,21 +5070,17 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Matthew\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\Matthew\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Matthew\\Documents\\Local Programming\\web-services\\homework_01\\CompanyEmployees\\CompanyEmployees.csproj",
+      "projectUniqueName": "C:\\Users\\Matthew\\Documents\\Local Programming\\Web Services\\homework_01\\CompanyEmployees\\CompanyEmployees.csproj",
       "projectName": "CompanyEmployees",
-      "projectPath": "C:\\Users\\Matthew\\Documents\\Local Programming\\web-services\\homework_01\\CompanyEmployees\\CompanyEmployees.csproj",
+      "projectPath": "C:\\Users\\Matthew\\Documents\\Local Programming\\Web Services\\homework_01\\CompanyEmployees\\CompanyEmployees.csproj",
       "packagesPath": "C:\\Users\\Matthew\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Matthew\\Documents\\Local Programming\\web-services\\homework_01\\CompanyEmployees\\obj\\",
+      "outputPath": "C:\\Users\\Matthew\\Documents\\Local Programming\\Web Services\\homework_01\\CompanyEmployees\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
         "C:\\Users\\Matthew\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -5100,17 +5096,17 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Matthew\\Documents\\Local Programming\\web-services\\homework_01\\CompanyEmployees.Presentation\\CompanyEmployees.Presentation.csproj": {
-              "projectPath": "C:\\Users\\Matthew\\Documents\\Local Programming\\web-services\\homework_01\\CompanyEmployees.Presentation\\CompanyEmployees.Presentation.csproj"
+            "C:\\Users\\Matthew\\Documents\\Local Programming\\Web Services\\homework_01\\CompanyEmployees.Presentation\\CompanyEmployees.Presentation.csproj": {
+              "projectPath": "C:\\Users\\Matthew\\Documents\\Local Programming\\Web Services\\homework_01\\CompanyEmployees.Presentation\\CompanyEmployees.Presentation.csproj"
             },
-            "C:\\Users\\Matthew\\Documents\\Local Programming\\web-services\\homework_01\\LoggerService\\LoggerService.csproj": {
-              "projectPath": "C:\\Users\\Matthew\\Documents\\Local Programming\\web-services\\homework_01\\LoggerService\\LoggerService.csproj"
+            "C:\\Users\\Matthew\\Documents\\Local Programming\\Web Services\\homework_01\\LoggerService\\LoggerService.csproj": {
+              "projectPath": "C:\\Users\\Matthew\\Documents\\Local Programming\\Web Services\\homework_01\\LoggerService\\LoggerService.csproj"
             },
-            "C:\\Users\\Matthew\\Documents\\Local Programming\\web-services\\homework_01\\Repository\\Repository.csproj": {
-              "projectPath": "C:\\Users\\Matthew\\Documents\\Local Programming\\web-services\\homework_01\\Repository\\Repository.csproj"
+            "C:\\Users\\Matthew\\Documents\\Local Programming\\Web Services\\homework_01\\Repository\\Repository.csproj": {
+              "projectPath": "C:\\Users\\Matthew\\Documents\\Local Programming\\Web Services\\homework_01\\Repository\\Repository.csproj"
             },
-            "C:\\Users\\Matthew\\Documents\\Local Programming\\web-services\\homework_01\\Service\\Service.csproj": {
-              "projectPath": "C:\\Users\\Matthew\\Documents\\Local Programming\\web-services\\homework_01\\Service\\Service.csproj"
+            "C:\\Users\\Matthew\\Documents\\Local Programming\\Web Services\\homework_01\\Service\\Service.csproj": {
+              "projectPath": "C:\\Users\\Matthew\\Documents\\Local Programming\\Web Services\\homework_01\\Service\\Service.csproj"
             }
           }
         }

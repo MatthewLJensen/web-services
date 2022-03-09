@@ -8529,3 +8529,10 @@
 2022-03-08 20:46:29.1508 Trace  Scanning Property LineEnding 'Default' NLog.Targets
 2022-03-08 20:46:29.1508 Trace File Target[logfile] has 2 layouts
 2022-03-08 20:46:29.1508 Trace FileTarget(Name=logfile): Using appenderFactory: NLog.Internal.FileAppenders.RetryingMultiProcessFileAppender+Factory
+2022-03-09 08:30:12.3755 Debug ScanAssembly('NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c')
+2022-03-09 08:30:13.1911 Debug Found assembly location directory: 'C:\Users\Matthew\Documents\Local Programming\Web Services\homework_01\CompanyEmployees\bin\Debug\net6.0' (NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c)
+2022-03-09 08:30:13.1911 Debug Auto loading based on NLog-Assembly found location: C:\Users\Matthew\Documents\Local Programming\Web Services\homework_01\CompanyEmployees\bin\Debug\net6.0
+2022-03-09 08:30:13.1947 Debug Search for auto loading files in location: C:\Users\Matthew\Documents\Local Programming\Web Services\homework_01\CompanyEmployees\bin\Debug\net6.0
+2022-03-09 08:30:13.1947 Debug Start auto loading, location: C:\Users\Matthew\Documents\Local Programming\Web Services\homework_01\CompanyEmployees\bin\Debug\net6.0
+2022-03-09 08:30:13.1947 Info Auto loading assembly file: C:\Users\Matthew\Documents\Local Programming\Web Services\homework_01\CompanyEmployees\bin\Debug\net6.0\NLog.Extensions.Logging.dll
+2022-03-09 08:30:13.1947 Info Loading assembly file: C:\Users\Matthew\Documents\Local Programming\Web Services\homework_01\CompanyEmployees\bin\Debug\net6.0\NLog.Extensions.Logging.dll
