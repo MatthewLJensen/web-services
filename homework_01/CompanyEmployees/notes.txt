@@ -1,0 +1,2 @@
+﻿Falls within the Presentation layer of the onion architecture.
+However, CsvFormatter and Mapping profiles are probably in the service layer.

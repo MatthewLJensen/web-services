@@ -53,6 +53,8 @@ builder.Services.AddControllers(config =>
 var app = builder.Build();
 
 var logger = app.Services.GetRequiredService<ILoggerManager>();
+
+// adding middleware to the App
 app.ConfigureExceptionHandler(logger);
 if (app.Environment.IsProduction())
     app.UseHsts();

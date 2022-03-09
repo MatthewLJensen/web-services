@@ -3,22 +3,25 @@ i:{00000000-0000-0000-0000-000000000000}:CompanyEmployees.sln
 ++CompanyEmployees
 i:{00000000-0000-0000-0000-000000000000}:CompanyEmployees
 ++Connected Services 
-i:{0829d060-9211-4e0e-8c81-fce65073e6da}:>1113
-i:{55ff0d6e-42b4-4db5-9bd0-4372991462a1}:>1112
+i:{0829d060-9211-4e0e-8c81-fce65073e6da}:>663
+i:{55ff0d6e-42b4-4db5-9bd0-4372991462a1}:>662
 ++Dependencies
-i:{0829d060-9211-4e0e-8c81-fce65073e6da}:>1110
-i:{55ff0d6e-42b4-4db5-9bd0-4372991462a1}:>1111
-i:{95cec9d4-45c7-4f0b-900a-7c9942f6b477}:>371
-i:{a1dad601-ad74-4214-913a-d0c7e44550ca}:>462
-i:{9102abe1-f4d1-45bb-8edb-ef9a8937d58c}:>553
-i:{8ac438e0-de9c-45bf-86dd-7f7b9baab499}:>725
-i:{30cfb963-a401-490f-a570-745636b27ea2}:>814
-i:{b537581a-bb3a-4984-b505-2fc90ad64615}:>644
-i:{cd799c0b-002f-411b-b5e3-563941c732b0}:>897
-i:{7dc80604-637e-4f31-b9b2-0e4be741d2a4}:>370
+i:{0829d060-9211-4e0e-8c81-fce65073e6da}:>660
+i:{55ff0d6e-42b4-4db5-9bd0-4372991462a1}:>661
+i:{95cec9d4-45c7-4f0b-900a-7c9942f6b477}:>224
+i:{7dc80604-637e-4f31-b9b2-0e4be741d2a4}:>330
+i:{a1dad601-ad74-4214-913a-d0c7e44550ca}:>289
+i:{9102abe1-f4d1-45bb-8edb-ef9a8937d58c}:>223
+i:{8ac438e0-de9c-45bf-86dd-7f7b9baab499}:>477
+i:{30cfb963-a401-490f-a570-745636b27ea2}:>375
+i:{b537581a-bb3a-4984-b505-2fc90ad64615}:>430
+i:{cd799c0b-002f-411b-b5e3-563941c732b0}:>544
 ++Properties
 i:{0829d060-9211-4e0e-8c81-fce65073e6da}:c:\users\matthew\documents\local programming\web-services\homework_01\companyemployees\properties\
 i:{55ff0d6e-42b4-4db5-9bd0-4372991462a1}:c:\users\matthew\documents\local programming\web-services\homework_01\middlewareexample\properties\
+++launchSettings.json
+i:{0829d060-9211-4e0e-8c81-fce65073e6da}:c:\users\matthew\documents\local programming\web-services\homework_01\companyemployees\properties\launchsettings.json
+i:{55ff0d6e-42b4-4db5-9bd0-4372991462a1}:c:\users\matthew\documents\local programming\web-services\homework_01\middlewareexample\properties\launchsettings.json
 ++ContextFactory
 i:{0829d060-9211-4e0e-8c81-fce65073e6da}:c:\users\matthew\documents\local programming\web-services\homework_01\companyemployees\contextfactory\
 ++Extensions
@@ -43,47 +46,44 @@ i:{55ff0d6e-42b4-4db5-9bd0-4372991462a1}:c:\users\matthew\documents\local progra
 i:{0829d060-9211-4e0e-8c81-fce65073e6da}:c:\users\matthew\documents\local programming\web-services\homework_01\companyemployees\weatherforecast.cs
 i:{55ff0d6e-42b4-4db5-9bd0-4372991462a1}:c:\users\matthew\documents\local programming\web-services\homework_01\middlewareexample\weatherforecast.cs
 ++No service dependencies discovered
-i:{0829d060-9211-4e0e-8c81-fce65073e6da}:>1115
-i:{55ff0d6e-42b4-4db5-9bd0-4372991462a1}:>1114
+i:{0829d060-9211-4e0e-8c81-fce65073e6da}:>665
+i:{55ff0d6e-42b4-4db5-9bd0-4372991462a1}:>664
 ++Analyzers
 i:{0829d060-9211-4e0e-8c81-fce65073e6da}:analyzers
 i:{55ff0d6e-42b4-4db5-9bd0-4372991462a1}:analyzers
 i:{95cec9d4-45c7-4f0b-900a-7c9942f6b477}:analyzers
+i:{7dc80604-637e-4f31-b9b2-0e4be741d2a4}:analyzers
 i:{a1dad601-ad74-4214-913a-d0c7e44550ca}:analyzers
 i:{9102abe1-f4d1-45bb-8edb-ef9a8937d58c}:analyzers
 i:{8ac438e0-de9c-45bf-86dd-7f7b9baab499}:analyzers
 i:{30cfb963-a401-490f-a570-745636b27ea2}:analyzers
 i:{b537581a-bb3a-4984-b505-2fc90ad64615}:analyzers
 i:{cd799c0b-002f-411b-b5e3-563941c732b0}:analyzers
-i:{7dc80604-637e-4f31-b9b2-0e4be741d2a4}:analyzers
 ++Frameworks
 i:{0829d060-9211-4e0e-8c81-fce65073e6da}:frameworks
 i:{55ff0d6e-42b4-4db5-9bd0-4372991462a1}:frameworks
 i:{95cec9d4-45c7-4f0b-900a-7c9942f6b477}:frameworks
+i:{7dc80604-637e-4f31-b9b2-0e4be741d2a4}:frameworks
 i:{a1dad601-ad74-4214-913a-d0c7e44550ca}:frameworks
 i:{9102abe1-f4d1-45bb-8edb-ef9a8937d58c}:frameworks
 i:{8ac438e0-de9c-45bf-86dd-7f7b9baab499}:frameworks
 i:{30cfb963-a401-490f-a570-745636b27ea2}:frameworks
 i:{b537581a-bb3a-4984-b505-2fc90ad64615}:frameworks
 i:{cd799c0b-002f-411b-b5e3-563941c732b0}:frameworks
-i:{7dc80604-637e-4f31-b9b2-0e4be741d2a4}:frameworks
 ++Packages
 i:{0829d060-9211-4e0e-8c81-fce65073e6da}:packages
+i:{7dc80604-637e-4f31-b9b2-0e4be741d2a4}:packages
 i:{9102abe1-f4d1-45bb-8edb-ef9a8937d58c}:packages
 i:{30cfb963-a401-490f-a570-745636b27ea2}:packages
 i:{b537581a-bb3a-4984-b505-2fc90ad64615}:packages
-i:{7dc80604-637e-4f31-b9b2-0e4be741d2a4}:packages
 ++Projects
 i:{0829d060-9211-4e0e-8c81-fce65073e6da}:projects
 i:{95cec9d4-45c7-4f0b-900a-7c9942f6b477}:projects
+i:{7dc80604-637e-4f31-b9b2-0e4be741d2a4}:projects
 i:{9102abe1-f4d1-45bb-8edb-ef9a8937d58c}:projects
 i:{8ac438e0-de9c-45bf-86dd-7f7b9baab499}:projects
 i:{30cfb963-a401-490f-a570-745636b27ea2}:projects
 i:{b537581a-bb3a-4984-b505-2fc90ad64615}:projects
-i:{7dc80604-637e-4f31-b9b2-0e4be741d2a4}:projects
-++launchSettings.json
-i:{0829d060-9211-4e0e-8c81-fce65073e6da}:c:\users\matthew\documents\local programming\web-services\homework_01\companyemployees\properties\launchsettings.json
-i:{55ff0d6e-42b4-4db5-9bd0-4372991462a1}:c:\users\matthew\documents\local programming\web-services\homework_01\middlewareexample\properties\launchsettings.json
 ++RepositoryContextFactory.cs
 i:{0829d060-9211-4e0e-8c81-fce65073e6da}:c:\users\matthew\documents\local programming\web-services\homework_01\companyemployees\contextfactory\repositorycontextfactory.cs
 ++ExceptionMiddlewareExtensions.cs
@@ -127,24 +127,24 @@ i:{55ff0d6e-42b4-4db5-9bd0-4372991462a1}:c:\program files\dotnet\sdk\6.0.101\sdk
 i:{0829d060-9211-4e0e-8c81-fce65073e6da}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
 i:{55ff0d6e-42b4-4db5-9bd0-4372991462a1}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
 i:{95cec9d4-45c7-4f0b-900a-7c9942f6b477}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{7dc80604-637e-4f31-b9b2-0e4be741d2a4}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
 i:{a1dad601-ad74-4214-913a-d0c7e44550ca}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
 i:{9102abe1-f4d1-45bb-8edb-ef9a8937d58c}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
 i:{8ac438e0-de9c-45bf-86dd-7f7b9baab499}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
 i:{30cfb963-a401-490f-a570-745636b27ea2}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
 i:{b537581a-bb3a-4984-b505-2fc90ad64615}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
 i:{cd799c0b-002f-411b-b5e3-563941c732b0}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
-i:{7dc80604-637e-4f31-b9b2-0e4be741d2a4}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
 ++Microsoft.CodeAnalysis.NetAnalyzers
 i:{0829d060-9211-4e0e-8c81-fce65073e6da}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
 i:{55ff0d6e-42b4-4db5-9bd0-4372991462a1}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
 i:{95cec9d4-45c7-4f0b-900a-7c9942f6b477}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{7dc80604-637e-4f31-b9b2-0e4be741d2a4}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
 i:{a1dad601-ad74-4214-913a-d0c7e44550ca}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
 i:{9102abe1-f4d1-45bb-8edb-ef9a8937d58c}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
 i:{8ac438e0-de9c-45bf-86dd-7f7b9baab499}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
 i:{30cfb963-a401-490f-a570-745636b27ea2}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
 i:{b537581a-bb3a-4984-b505-2fc90ad64615}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
 i:{cd799c0b-002f-411b-b5e3-563941c732b0}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
-i:{7dc80604-637e-4f31-b9b2-0e4be741d2a4}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
 ++Microsoft.EntityFrameworkCore.Analyzers
 i:{0829d060-9211-4e0e-8c81-fce65073e6da}:c:\users\matthew\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.1\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
 i:{9102abe1-f4d1-45bb-8edb-ef9a8937d58c}:c:\users\matthew\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.1\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
@@ -161,13 +161,13 @@ i:{55ff0d6e-42b4-4db5-9bd0-4372991462a1}:c:\program files\dotnet\sdk\6.0.101\sdk
 i:{0829d060-9211-4e0e-8c81-fce65073e6da}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.1\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
 i:{55ff0d6e-42b4-4db5-9bd0-4372991462a1}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.1\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
 i:{95cec9d4-45c7-4f0b-900a-7c9942f6b477}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.1\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{7dc80604-637e-4f31-b9b2-0e4be741d2a4}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.1\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
 i:{a1dad601-ad74-4214-913a-d0c7e44550ca}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.1\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
 i:{9102abe1-f4d1-45bb-8edb-ef9a8937d58c}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.1\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
 i:{8ac438e0-de9c-45bf-86dd-7f7b9baab499}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.1\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
 i:{30cfb963-a401-490f-a570-745636b27ea2}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.1\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
 i:{b537581a-bb3a-4984-b505-2fc90ad64615}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.1\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
 i:{cd799c0b-002f-411b-b5e3-563941c732b0}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.1\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
-i:{7dc80604-637e-4f31-b9b2-0e4be741d2a4}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.1\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
 ++Microsoft.AspNetCore.App
 i:{0829d060-9211-4e0e-8c81-fce65073e6da}:c:\users\matthew\documents\local programming\web-services\homework_01\companyemployees\microsoft.aspnetcore.app
 i:{55ff0d6e-42b4-4db5-9bd0-4372991462a1}:c:\users\matthew\documents\local programming\web-services\homework_01\middlewareexample\microsoft.aspnetcore.app
@@ -175,31 +175,31 @@ i:{55ff0d6e-42b4-4db5-9bd0-4372991462a1}:c:\users\matthew\documents\local progra
 i:{0829d060-9211-4e0e-8c81-fce65073e6da}:c:\users\matthew\documents\local programming\web-services\homework_01\companyemployees\microsoft.netcore.app
 i:{55ff0d6e-42b4-4db5-9bd0-4372991462a1}:c:\users\matthew\documents\local programming\web-services\homework_01\middlewareexample\microsoft.netcore.app
 i:{95cec9d4-45c7-4f0b-900a-7c9942f6b477}:c:\users\matthew\documents\local programming\web-services\homework_01\contracts\microsoft.netcore.app
+i:{7dc80604-637e-4f31-b9b2-0e4be741d2a4}:c:\users\matthew\documents\local programming\web-services\homework_01\loggerservice\microsoft.netcore.app
 i:{a1dad601-ad74-4214-913a-d0c7e44550ca}:c:\users\matthew\documents\local programming\web-services\homework_01\entities\microsoft.netcore.app
 i:{9102abe1-f4d1-45bb-8edb-ef9a8937d58c}:c:\users\matthew\documents\local programming\web-services\homework_01\repository\microsoft.netcore.app
 i:{8ac438e0-de9c-45bf-86dd-7f7b9baab499}:c:\users\matthew\documents\local programming\web-services\homework_01\service.contracts\microsoft.netcore.app
 i:{30cfb963-a401-490f-a570-745636b27ea2}:c:\users\matthew\documents\local programming\web-services\homework_01\service\microsoft.netcore.app
 i:{b537581a-bb3a-4984-b505-2fc90ad64615}:c:\users\matthew\documents\local programming\web-services\homework_01\companyemployees.presentation\microsoft.netcore.app
 i:{cd799c0b-002f-411b-b5e3-563941c732b0}:c:\users\matthew\documents\local programming\web-services\homework_01\shared\microsoft.netcore.app
-i:{7dc80604-637e-4f31-b9b2-0e4be741d2a4}:c:\users\matthew\documents\local programming\web-services\homework_01\loggerservice\microsoft.netcore.app
 ++Microsoft.AspNetCore.Mvc.NewtonsoftJson (6.0.2)
-i:{0829d060-9211-4e0e-8c81-fce65073e6da}:>1127
-i:{b537581a-bb3a-4984-b505-2fc90ad64615}:>1159
+i:{0829d060-9211-4e0e-8c81-fce65073e6da}:>684
+i:{b537581a-bb3a-4984-b505-2fc90ad64615}:>758
 ++Microsoft.EntityFrameworkCore.SqlServer (6.0.1)
-i:{0829d060-9211-4e0e-8c81-fce65073e6da}:>1126
+i:{0829d060-9211-4e0e-8c81-fce65073e6da}:>683
 ++Microsoft.EntityFrameworkCore.Tools (6.0.1)
-i:{0829d060-9211-4e0e-8c81-fce65073e6da}:>1128
+i:{0829d060-9211-4e0e-8c81-fce65073e6da}:>685
 ++CompanyEmployees.Presentation
-i:{0829d060-9211-4e0e-8c81-fce65073e6da}:c:\users\matthew\documents\local programming\web-services\homework_01\companyemployees.presentation\companyemployees.presentation.csproj
+i:{0829d060-9211-4e0e-8c81-fce65073e6da}:c:\users\matthew\documents\local programming\web-services\homework_01\companyemployees.presentation\bin\debug\net6.0\companyemployees.presentation.dll
 i:{00000000-0000-0000-0000-000000000000}:CompanyEmployees.Presentation
 ++LoggerService
-i:{0829d060-9211-4e0e-8c81-fce65073e6da}:c:\users\matthew\documents\local programming\web-services\homework_01\loggerservice\loggerservice.csproj
+i:{0829d060-9211-4e0e-8c81-fce65073e6da}:c:\users\matthew\documents\local programming\web-services\homework_01\loggerservice\bin\debug\net6.0\loggerservice.dll
 i:{00000000-0000-0000-0000-000000000000}:LoggerService
 ++Repository
-i:{0829d060-9211-4e0e-8c81-fce65073e6da}:c:\users\matthew\documents\local programming\web-services\homework_01\repository\repository.csproj
+i:{0829d060-9211-4e0e-8c81-fce65073e6da}:c:\users\matthew\documents\local programming\web-services\homework_01\repository\bin\debug\net6.0\repository.dll
 i:{00000000-0000-0000-0000-000000000000}:Repository
 ++Service
-i:{0829d060-9211-4e0e-8c81-fce65073e6da}:c:\users\matthew\documents\local programming\web-services\homework_01\service\service.csproj
+i:{0829d060-9211-4e0e-8c81-fce65073e6da}:c:\users\matthew\documents\local programming\web-services\homework_01\service\bin\debug\net6.0\service.dll
 i:{00000000-0000-0000-0000-000000000000}:Service
 ++20220120023840_DatabaseCreation.Designer.cs
 i:{0829d060-9211-4e0e-8c81-fce65073e6da}:c:\users\matthew\documents\local programming\web-services\homework_01\companyemployees\migrations\20220120023840_databasecreation.designer.cs
@@ -214,9 +214,11 @@ i:{b537581a-bb3a-4984-b505-2fc90ad64615}:c:\users\matthew\documents\local progra
 i:{55ff0d6e-42b4-4db5-9bd0-4372991462a1}:c:\users\matthew\documents\local programming\web-services\homework_01\middlewareexample\controllers\weatherforecastcontroller.cs
 ++Contracts
 i:{00000000-0000-0000-0000-000000000000}:Contracts
-i:{9102abe1-f4d1-45bb-8edb-ef9a8937d58c}:c:\users\matthew\documents\local programming\web-services\homework_01\contracts\contracts.csproj
-i:{30cfb963-a401-490f-a570-745636b27ea2}:c:\users\matthew\documents\local programming\web-services\homework_01\contracts\contracts.csproj
-i:{7dc80604-637e-4f31-b9b2-0e4be741d2a4}:c:\users\matthew\documents\local programming\web-services\homework_01\contracts\contracts.csproj
+i:{7dc80604-637e-4f31-b9b2-0e4be741d2a4}:c:\users\matthew\documents\local programming\web-services\homework_01\contracts\bin\debug\net6.0\contracts.dll
+i:{9102abe1-f4d1-45bb-8edb-ef9a8937d58c}:c:\users\matthew\documents\local programming\web-services\homework_01\contracts\bin\debug\net6.0\contracts.dll
+i:{30cfb963-a401-490f-a570-745636b27ea2}:c:\users\matthew\documents\local programming\web-services\homework_01\contracts\bin\debug\net6.0\contracts.dll
+++ICompanyEmployeeChecker.cs
+i:{95cec9d4-45c7-4f0b-900a-7c9942f6b477}:c:\users\matthew\documents\local programming\web-services\homework_01\contracts\icompanyemployeechecker.cs
 ++ICompanyRepository.cs
 i:{95cec9d4-45c7-4f0b-900a-7c9942f6b477}:c:\users\matthew\documents\local programming\web-services\homework_01\contracts\icompanyrepository.cs
 ++IEmployeeRepository.cs
@@ -228,18 +230,24 @@ i:{95cec9d4-45c7-4f0b-900a-7c9942f6b477}:c:\users\matthew\documents\local progra
 ++IRepositoryManager.cs
 i:{95cec9d4-45c7-4f0b-900a-7c9942f6b477}:c:\users\matthew\documents\local programming\web-services\homework_01\contracts\irepositorymanager.cs
 ++Entities
-i:{95cec9d4-45c7-4f0b-900a-7c9942f6b477}:c:\users\matthew\documents\local programming\web-services\homework_01\entities\entities.csproj
+i:{95cec9d4-45c7-4f0b-900a-7c9942f6b477}:c:\users\matthew\documents\local programming\web-services\homework_01\entities\bin\debug\net6.0\entities.dll
 i:{00000000-0000-0000-0000-000000000000}:Entities
-i:{9102abe1-f4d1-45bb-8edb-ef9a8937d58c}:c:\users\matthew\documents\local programming\web-services\homework_01\entities\entities.csproj
-i:{8ac438e0-de9c-45bf-86dd-7f7b9baab499}:c:\users\matthew\documents\local programming\web-services\homework_01\entities\entities.csproj
+i:{9102abe1-f4d1-45bb-8edb-ef9a8937d58c}:c:\users\matthew\documents\local programming\web-services\homework_01\entities\bin\debug\net6.0\entities.dll
+i:{8ac438e0-de9c-45bf-86dd-7f7b9baab499}:c:\users\matthew\documents\local programming\web-services\homework_01\entities\bin\debug\net6.0\entities.dll
+++Shared
+i:{95cec9d4-45c7-4f0b-900a-7c9942f6b477}:c:\users\matthew\documents\local programming\web-services\homework_01\shared\bin\debug\net6.0\shared.dll
+i:{8ac438e0-de9c-45bf-86dd-7f7b9baab499}:c:\users\matthew\documents\local programming\web-services\homework_01\shared\bin\debug\net6.0\shared.dll
+i:{00000000-0000-0000-0000-000000000000}:Shared
+++LoggerManager.cs
+i:{7dc80604-637e-4f31-b9b2-0e4be741d2a4}:c:\users\matthew\documents\local programming\web-services\homework_01\loggerservice\loggermanager.cs
+++NLog.Extensions.Logging (1.7.4)
+i:{7dc80604-637e-4f31-b9b2-0e4be741d2a4}:>771
 ++ErrorModel
 i:{a1dad601-ad74-4214-913a-d0c7e44550ca}:c:\users\matthew\documents\local programming\web-services\homework_01\entities\errormodel\
-++Exceptions
-i:{a1dad601-ad74-4214-913a-d0c7e44550ca}:c:\users\matthew\documents\local programming\web-services\homework_01\entities\exceptions\
-++Models
-i:{a1dad601-ad74-4214-913a-d0c7e44550ca}:c:\users\matthew\documents\local programming\web-services\homework_01\entities\models\
 ++ErrorDetails.cs
 i:{a1dad601-ad74-4214-913a-d0c7e44550ca}:c:\users\matthew\documents\local programming\web-services\homework_01\entities\errormodel\errordetails.cs
+++Exceptions
+i:{a1dad601-ad74-4214-913a-d0c7e44550ca}:c:\users\matthew\documents\local programming\web-services\homework_01\entities\exceptions\
 ++BadRequestException.cs
 i:{a1dad601-ad74-4214-913a-d0c7e44550ca}:c:\users\matthew\documents\local programming\web-services\homework_01\entities\exceptions\badrequestexception.cs
 ++CollectionByIdsBadRequestException.cs
@@ -254,12 +262,16 @@ i:{a1dad601-ad74-4214-913a-d0c7e44550ca}:c:\users\matthew\documents\local progra
 i:{a1dad601-ad74-4214-913a-d0c7e44550ca}:c:\users\matthew\documents\local programming\web-services\homework_01\entities\exceptions\idparametersbadrequestexception.cs
 ++NotFoundException.cs
 i:{a1dad601-ad74-4214-913a-d0c7e44550ca}:c:\users\matthew\documents\local programming\web-services\homework_01\entities\exceptions\notfoundexception.cs
+++Models
+i:{a1dad601-ad74-4214-913a-d0c7e44550ca}:c:\users\matthew\documents\local programming\web-services\homework_01\entities\models\
 ++Company.cs
 i:{a1dad601-ad74-4214-913a-d0c7e44550ca}:c:\users\matthew\documents\local programming\web-services\homework_01\entities\models\company.cs
 ++Employee.cs
 i:{a1dad601-ad74-4214-913a-d0c7e44550ca}:c:\users\matthew\documents\local programming\web-services\homework_01\entities\models\employee.cs
 ++Configuration
 i:{9102abe1-f4d1-45bb-8edb-ef9a8937d58c}:c:\users\matthew\documents\local programming\web-services\homework_01\repository\configuration\
+++CompanyEmployeeChecker.cs
+i:{9102abe1-f4d1-45bb-8edb-ef9a8937d58c}:c:\users\matthew\documents\local programming\web-services\homework_01\repository\companyemployeechecker.cs
 ++CompanyRepository.cs
 i:{9102abe1-f4d1-45bb-8edb-ef9a8937d58c}:c:\users\matthew\documents\local programming\web-services\homework_01\repository\companyrepository.cs
 ++EmployeeRepository.cs
@@ -275,21 +287,18 @@ i:{9102abe1-f4d1-45bb-8edb-ef9a8937d58c}:c:\users\matthew\documents\local progra
 ++EmployeeConfiguration.cs
 i:{9102abe1-f4d1-45bb-8edb-ef9a8937d58c}:c:\users\matthew\documents\local programming\web-services\homework_01\repository\configuration\employeeconfiguration.cs
 ++Microsoft.EntityFrameworkCore (6.0.1)
-i:{9102abe1-f4d1-45bb-8edb-ef9a8937d58c}:>1178
-i:{b537581a-bb3a-4984-b505-2fc90ad64615}:>1155
+i:{9102abe1-f4d1-45bb-8edb-ef9a8937d58c}:>746
+i:{b537581a-bb3a-4984-b505-2fc90ad64615}:>756
 ++Service.Contracts
 i:{00000000-0000-0000-0000-000000000000}:Service.Contracts
-i:{30cfb963-a401-490f-a570-745636b27ea2}:c:\users\matthew\documents\local programming\web-services\homework_01\service.contracts\service.contracts.csproj
-i:{b537581a-bb3a-4984-b505-2fc90ad64615}:c:\users\matthew\documents\local programming\web-services\homework_01\service.contracts\service.contracts.csproj
+i:{30cfb963-a401-490f-a570-745636b27ea2}:c:\users\matthew\documents\local programming\web-services\homework_01\service.contracts\bin\debug\net6.0\service.contracts.dll
+i:{b537581a-bb3a-4984-b505-2fc90ad64615}:c:\users\matthew\documents\local programming\web-services\homework_01\service.contracts\bin\debug\net6.0\service.contracts.dll
 ++ICompanyService.cs
 i:{8ac438e0-de9c-45bf-86dd-7f7b9baab499}:c:\users\matthew\documents\local programming\web-services\homework_01\service.contracts\icompanyservice.cs
 ++IEmployeeService.cs
 i:{8ac438e0-de9c-45bf-86dd-7f7b9baab499}:c:\users\matthew\documents\local programming\web-services\homework_01\service.contracts\iemployeeservice.cs
 ++IServiceManager.cs
 i:{8ac438e0-de9c-45bf-86dd-7f7b9baab499}:c:\users\matthew\documents\local programming\web-services\homework_01\service.contracts\iservicemanager.cs
-++Shared
-i:{8ac438e0-de9c-45bf-86dd-7f7b9baab499}:c:\users\matthew\documents\local programming\web-services\homework_01\shared\shared.csproj
-i:{00000000-0000-0000-0000-000000000000}:Shared
 ++CompanyService.cs
 i:{30cfb963-a401-490f-a570-745636b27ea2}:c:\users\matthew\documents\local programming\web-services\homework_01\service\companyservice.cs
 ++EmployeeService.cs
@@ -297,7 +306,11 @@ i:{30cfb963-a401-490f-a570-745636b27ea2}:c:\users\matthew\documents\local progra
 ++ServiceManager.cs
 i:{30cfb963-a401-490f-a570-745636b27ea2}:c:\users\matthew\documents\local programming\web-services\homework_01\service\servicemanager.cs
 ++AutoMapper.Extensions.Microsoft.DependencyInjection (11.0.0)
-i:{30cfb963-a401-490f-a570-745636b27ea2}:>1151
+i:{30cfb963-a401-490f-a570-745636b27ea2}:>734
+++ActionFilters
+i:{b537581a-bb3a-4984-b505-2fc90ad64615}:c:\users\matthew\documents\local programming\web-services\homework_01\companyemployees.presentation\actionfilters\
+++ValidationFilterAttribute.cs
+i:{b537581a-bb3a-4984-b505-2fc90ad64615}:c:\users\matthew\documents\local programming\web-services\homework_01\companyemployees.presentation\actionfilters\validationfilterattribute.cs
 ++CompaniesController.cs
 i:{b537581a-bb3a-4984-b505-2fc90ad64615}:c:\users\matthew\documents\local programming\web-services\homework_01\companyemployees.presentation\controllers\companiescontroller.cs
 ++EmployeesController.cs
@@ -309,20 +322,42 @@ i:{b537581a-bb3a-4984-b505-2fc90ad64615}:c:\users\matthew\documents\local progra
 ++ArrayModelBinder.cs
 i:{b537581a-bb3a-4984-b505-2fc90ad64615}:c:\users\matthew\documents\local programming\web-services\homework_01\companyemployees.presentation\modelbinders\arraymodelbinder.cs
 ++Microsoft.AspNetCore.JsonPatch (6.0.2)
-i:{b537581a-bb3a-4984-b505-2fc90ad64615}:>1157
+i:{b537581a-bb3a-4984-b505-2fc90ad64615}:>757
 ++Microsoft.AspNetCore.Mvc.Core (2.2.5)
-i:{b537581a-bb3a-4984-b505-2fc90ad64615}:>1162
+i:{b537581a-bb3a-4984-b505-2fc90ad64615}:>759
 ++DataTransferObjects
 i:{cd799c0b-002f-411b-b5e3-563941c732b0}:c:\users\matthew\documents\local programming\web-services\homework_01\shared\datatransferobjects\
 ++CompanyDto.cs
 i:{cd799c0b-002f-411b-b5e3-563941c732b0}:c:\users\matthew\documents\local programming\web-services\homework_01\shared\datatransferobjects\companydto.cs
+++CompanyForCreationDto.cs
+i:{cd799c0b-002f-411b-b5e3-563941c732b0}:c:\users\matthew\documents\local programming\web-services\homework_01\shared\datatransferobjects\companyforcreationdto.cs
 ++CompanyForManipulationDto.cs
 i:{cd799c0b-002f-411b-b5e3-563941c732b0}:c:\users\matthew\documents\local programming\web-services\homework_01\shared\datatransferobjects\companyformanipulationdto.cs
+++CompanyForUpdateDto.cs
+i:{cd799c0b-002f-411b-b5e3-563941c732b0}:c:\users\matthew\documents\local programming\web-services\homework_01\shared\datatransferobjects\companyforupdatedto.cs
 ++EmployeeDto.cs
 i:{cd799c0b-002f-411b-b5e3-563941c732b0}:c:\users\matthew\documents\local programming\web-services\homework_01\shared\datatransferobjects\employeedto.cs
 ++EmployeeForManipulationDto.cs
 i:{cd799c0b-002f-411b-b5e3-563941c732b0}:c:\users\matthew\documents\local programming\web-services\homework_01\shared\datatransferobjects\employeeformanipulationdto.cs
-++LoggerManager.cs
-i:{7dc80604-637e-4f31-b9b2-0e4be741d2a4}:c:\users\matthew\documents\local programming\web-services\homework_01\loggerservice\loggermanager.cs
-++NLog.Extensions.Logging (1.7.4)
-i:{7dc80604-637e-4f31-b9b2-0e4be741d2a4}:>1193
+++RequestFeatures
+i:{cd799c0b-002f-411b-b5e3-563941c732b0}:c:\users\matthew\documents\local programming\web-services\homework_01\shared\requestfeatures\
+++CompanyParameters.cs
+i:{cd799c0b-002f-411b-b5e3-563941c732b0}:c:\users\matthew\documents\local programming\web-services\homework_01\shared\requestfeatures\companyparameters.cs
+++EmployeeParameters.cs
+i:{cd799c0b-002f-411b-b5e3-563941c732b0}:c:\users\matthew\documents\local programming\web-services\homework_01\shared\requestfeatures\employeeparameters.cs
+++MetaData.cs
+i:{cd799c0b-002f-411b-b5e3-563941c732b0}:c:\users\matthew\documents\local programming\web-services\homework_01\shared\requestfeatures\metadata.cs
+++PagedList.cs
+i:{cd799c0b-002f-411b-b5e3-563941c732b0}:c:\users\matthew\documents\local programming\web-services\homework_01\shared\requestfeatures\pagedlist.cs
+++RequestParameters.cs
+i:{cd799c0b-002f-411b-b5e3-563941c732b0}:c:\users\matthew\documents\local programming\web-services\homework_01\shared\requestfeatures\requestparameters.cs
+++notes.txt
+i:{0829d060-9211-4e0e-8c81-fce65073e6da}:c:\users\matthew\documents\local programming\web-services\homework_01\companyemployees\notes.txt
+i:{b537581a-bb3a-4984-b505-2fc90ad64615}:c:\users\matthew\documents\local programming\web-services\homework_01\companyemployees.presentation\notes.txt
+i:{95cec9d4-45c7-4f0b-900a-7c9942f6b477}:c:\users\matthew\documents\local programming\web-services\homework_01\contracts\notes.txt
+i:{a1dad601-ad74-4214-913a-d0c7e44550ca}:c:\users\matthew\documents\local programming\web-services\homework_01\entities\notes.txt
+i:{cd799c0b-002f-411b-b5e3-563941c732b0}:c:\users\matthew\documents\local programming\web-services\homework_01\shared\notes.txt
+i:{7dc80604-637e-4f31-b9b2-0e4be741d2a4}:c:\users\matthew\documents\local programming\web-services\homework_01\loggerservice\notes.txt
+i:{9102abe1-f4d1-45bb-8edb-ef9a8937d58c}:c:\users\matthew\documents\local programming\web-services\homework_01\repository\notes.txt
+i:{30cfb963-a401-490f-a570-745636b27ea2}:c:\users\matthew\documents\local programming\web-services\homework_01\service\notes.txt
+i:{8ac438e0-de9c-45bf-86dd-7f7b9baab499}:c:\users\matthew\documents\local programming\web-services\homework_01\service.contracts\notes.txt

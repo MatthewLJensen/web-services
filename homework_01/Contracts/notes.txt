@@ -1,0 +1,1 @@
+﻿Falls within the Domain layer of the onion architecture.
