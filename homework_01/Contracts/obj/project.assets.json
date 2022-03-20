@@ -43,17 +43,21 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Matthew\\.nuget\\packages\\": {}
+    "C:\\Users\\Matthew\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Matthew\\Documents\\Local Programming\\Web Services\\homework_01\\Contracts\\Contracts.csproj",
+      "projectUniqueName": "C:\\Users\\Matthew\\Documents\\Local Programming\\web-services\\homework_01\\Contracts\\Contracts.csproj",
       "projectName": "Contracts",
-      "projectPath": "C:\\Users\\Matthew\\Documents\\Local Programming\\Web Services\\homework_01\\Contracts\\Contracts.csproj",
+      "projectPath": "C:\\Users\\Matthew\\Documents\\Local Programming\\web-services\\homework_01\\Contracts\\Contracts.csproj",
       "packagesPath": "C:\\Users\\Matthew\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Matthew\\Documents\\Local Programming\\Web Services\\homework_01\\Contracts\\obj\\",
+      "outputPath": "C:\\Users\\Matthew\\Documents\\Local Programming\\web-services\\homework_01\\Contracts\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
         "C:\\Users\\Matthew\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -69,11 +73,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Matthew\\Documents\\Local Programming\\Web Services\\homework_01\\Entities\\Entities.csproj": {
-              "projectPath": "C:\\Users\\Matthew\\Documents\\Local Programming\\Web Services\\homework_01\\Entities\\Entities.csproj"
+            "C:\\Users\\Matthew\\Documents\\Local Programming\\web-services\\homework_01\\Entities\\Entities.csproj": {
+              "projectPath": "C:\\Users\\Matthew\\Documents\\Local Programming\\web-services\\homework_01\\Entities\\Entities.csproj"
             },
-            "C:\\Users\\Matthew\\Documents\\Local Programming\\Web Services\\homework_01\\Shared\\Shared.csproj": {
-              "projectPath": "C:\\Users\\Matthew\\Documents\\Local Programming\\Web Services\\homework_01\\Shared\\Shared.csproj"
+            "C:\\Users\\Matthew\\Documents\\Local Programming\\web-services\\homework_01\\Shared\\Shared.csproj": {
+              "projectPath": "C:\\Users\\Matthew\\Documents\\Local Programming\\web-services\\homework_01\\Shared\\Shared.csproj"
             }
           }
         }
