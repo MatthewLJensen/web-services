@@ -1,5 +1,6 @@
 ﻿using Contracts;
 using Microsoft.EntityFrameworkCore;
+using Repository.Extensions;
 
 internal sealed class CompanyRepository : RepositoryBase<Company>, ICompanyRepository
 {
@@ -11,6 +12,7 @@ internal sealed class CompanyRepository : RepositoryBase<Company>, ICompanyRepos
     {
         var companies = await FindAll(trackChanges)
         .OrderBy(c => c.Name)
+        .Sort(companyParameters.OrderBy)
         .ToListAsync();
 
         return PagedList<Company>

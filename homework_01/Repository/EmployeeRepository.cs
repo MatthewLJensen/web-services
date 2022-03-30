@@ -1,5 +1,6 @@
 ﻿using Contracts;
 using Microsoft.EntityFrameworkCore;
+using Repository.Extensions;
 
 public class EmployeeRepository : RepositoryBase<Employee>, IEmployeeRepository
 {
