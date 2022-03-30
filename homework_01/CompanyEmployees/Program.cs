@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Formatters;
 using Microsoft.Extensions.Options;
 using NLog;
+using Shared.DataTransferObjects;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -18,6 +19,8 @@ builder.Services.ConfigureLoggerService();
 builder.Services.ConfigureRepositoryManager();
 
 builder.Services.AddScoped<ValidationFilterAttribute>();
+
+builder.Services.AddScoped<IDataShaper<EmployeeDto>, DataShaper<EmployeeDto>>();
 
 builder.Services.AddControllers();
 
