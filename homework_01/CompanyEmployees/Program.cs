@@ -24,6 +24,10 @@ builder.Services.AddScoped<IDataShaper<EmployeeDto>, DataShaper<EmployeeDto>>();
 
 builder.Services.AddControllers();
 
+builder.Services.AddCustomMediaTypes();
+
+builder.Services.AddScoped<ValidateMediaTypeAttribute>();
+
 builder.Services.ConfigureRepositoryManager();
 
 
