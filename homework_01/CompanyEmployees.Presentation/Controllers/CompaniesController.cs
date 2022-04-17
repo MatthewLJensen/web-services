@@ -16,7 +16,7 @@ namespace CompanyEmployees.Presentation.Controllers
         [HttpGet(Name = "GetCompanies")]
         public async Task<IActionResult> GetCompanies([FromQuery] CompanyParameters companyParameters)
         {
-            //            throw new Exception("Exception");
+            //throw new Exception("Exception");
             var pagedResult = await _service.CompanyService.GetAllCompaniesAsync(companyParameters, trackChanges: false);
 
             Response.Headers.Add("X-Pagination", JsonSerializer.Serialize(pagedResult.metaData));

@@ -28,6 +28,8 @@ builder.Services.AddControllers();
 
 builder.Services.AddCustomMediaTypes();
 
+builder.Services.ConfigureVersioning();
+
 builder.Services.AddScoped<ValidateMediaTypeAttribute>();
 
 builder.Services.ConfigureRepositoryManager();
