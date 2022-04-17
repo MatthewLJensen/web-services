@@ -22,6 +22,8 @@ builder.Services.AddScoped<ValidationFilterAttribute>();
 
 builder.Services.AddScoped<IDataShaper<EmployeeDto>, DataShaper<EmployeeDto>>();
 
+builder.Services.AddScoped<IEmployeeLinks, EmployeeLinks>();
+
 builder.Services.AddControllers();
 
 builder.Services.AddCustomMediaTypes();

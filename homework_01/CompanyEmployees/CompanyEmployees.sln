@@ -5,6 +5,7 @@ VisualStudioVersion = 17.0.32014.148
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CompanyEmployees", "CompanyEmployees.csproj", "{0829D060-9211-4E0E-8C81-FCE65073E6DA}"
 	ProjectSection(ProjectDependencies) = postProject
+		{A1DAD601-AD74-4214-913A-D0C7E44550CA} = {A1DAD601-AD74-4214-913A-D0C7E44550CA}
 		{9102ABE1-F4D1-45BB-8EDB-EF9A8937D58C} = {9102ABE1-F4D1-45BB-8EDB-EF9A8937D58C}
 	EndProjectSection
 EndProject

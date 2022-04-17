@@ -36,8 +36,7 @@ public class EmployeeLinks : IEmployeeLinks
     new LinkResponse { ShapedEntities = shapedEmployees };
 
 
-    private LinkResponse ReturnLinkdedEmployees(IEnumerable<EmployeeDto> employeesDto,
-string fields, Guid companyId, HttpContext httpContext, List<Entity> shapedEmployees)
+    private LinkResponse ReturnLinkdedEmployees(IEnumerable<EmployeeDto> employeesDto, string fields, Guid companyId, HttpContext httpContext, List<Entity> shapedEmployees)
     {
         var employeeDtoList = employeesDto.ToList();
         for (var index = 0; index < employeeDtoList.Count(); index++)

@@ -1,4 +1,5 @@
-﻿using System.Dynamic;
+﻿using Entities.Models;
+using System.Dynamic;
 using System.Reflection;
 
 public class DataShaper<T> : IDataShaper<T> where T : class

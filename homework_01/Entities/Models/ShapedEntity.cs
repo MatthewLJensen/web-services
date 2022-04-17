@@ -1,4 +1,5 @@
-﻿public class ShapedEntity
+﻿namespace Entities.Models;
+public class ShapedEntity
 {
     public ShapedEntity()
     {

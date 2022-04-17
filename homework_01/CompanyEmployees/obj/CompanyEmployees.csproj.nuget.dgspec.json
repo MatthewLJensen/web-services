@@ -31,6 +31,9 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
+              "C:\\Users\\Matthew\\Documents\\Local Programming\\web-services\\homework_01\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\Matthew\\Documents\\Local Programming\\web-services\\homework_01\\Entities\\Entities.csproj"
+              },
               "C:\\Users\\Matthew\\Documents\\Local Programming\\web-services\\homework_01\\Service.Contracts\\Service.Contracts.csproj": {
                 "projectPath": "C:\\Users\\Matthew\\Documents\\Local Programming\\web-services\\homework_01\\Service.Contracts\\Service.Contracts.csproj"
               }
@@ -112,6 +115,12 @@
             "projectReferences": {
               "C:\\Users\\Matthew\\Documents\\Local Programming\\web-services\\homework_01\\CompanyEmployees.Presentation\\CompanyEmployees.Presentation.csproj": {
                 "projectPath": "C:\\Users\\Matthew\\Documents\\Local Programming\\web-services\\homework_01\\CompanyEmployees.Presentation\\CompanyEmployees.Presentation.csproj"
+              },
+              "C:\\Users\\Matthew\\Documents\\Local Programming\\web-services\\homework_01\\Contracts\\Contracts.csproj": {
+                "projectPath": "C:\\Users\\Matthew\\Documents\\Local Programming\\web-services\\homework_01\\Contracts\\Contracts.csproj"
+              },
+              "C:\\Users\\Matthew\\Documents\\Local Programming\\web-services\\homework_01\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\Matthew\\Documents\\Local Programming\\web-services\\homework_01\\Entities\\Entities.csproj"
               },
               "C:\\Users\\Matthew\\Documents\\Local Programming\\web-services\\homework_01\\LoggerService\\LoggerService.csproj": {
                 "projectPath": "C:\\Users\\Matthew\\Documents\\Local Programming\\web-services\\homework_01\\LoggerService\\LoggerService.csproj"
@@ -262,7 +271,11 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\Matthew\\Documents\\Local Programming\\web-services\\homework_01\\Shared\\Shared.csproj": {
+                "projectPath": "C:\\Users\\Matthew\\Documents\\Local Programming\\web-services\\homework_01\\Shared\\Shared.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -274,6 +287,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

@@ -1,4 +1,5 @@
-﻿using System.Dynamic;
+﻿using Entities.Models;
+using System.Dynamic;
 
 public interface IDataShaper<T>
 {

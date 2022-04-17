@@ -1,4 +1,6 @@
-﻿public class LinkResponse
+﻿using Entities.Models;
+
+public class LinkResponse
 {
     public bool HasLinks { get; set; }
     public List<Entity> ShapedEntities { get; set; }

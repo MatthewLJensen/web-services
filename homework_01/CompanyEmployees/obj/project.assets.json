@@ -1491,6 +1491,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
+          "Entities": "1.0.0",
           "Microsoft.AspNetCore.JsonPatch": "6.0.2",
           "Microsoft.AspNetCore.Mvc.Core": "2.2.5",
           "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "6.0.2",
@@ -1521,6 +1522,10 @@
       "Entities/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Microsoft.AspNetCore.Mvc.Abstractions": "2.2.0",
+          "Shared": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/Entities.dll": {}
         },
@@ -5119,6 +5124,8 @@
   "projectFileDependencyGroups": {
     "net6.0": [
       "CompanyEmployees.Presentation >= 1.0.0",
+      "Contracts >= 1.0.0",
+      "Entities >= 1.0.0",
       "LoggerService >= 1.0.0",
       "Microsoft.AspNetCore.Mvc.NewtonsoftJson >= 6.0.2",
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.1",
@@ -5160,6 +5167,12 @@
           "projectReferences": {
             "C:\\Users\\Matthew\\Documents\\Local Programming\\web-services\\homework_01\\CompanyEmployees.Presentation\\CompanyEmployees.Presentation.csproj": {
               "projectPath": "C:\\Users\\Matthew\\Documents\\Local Programming\\web-services\\homework_01\\CompanyEmployees.Presentation\\CompanyEmployees.Presentation.csproj"
+            },
+            "C:\\Users\\Matthew\\Documents\\Local Programming\\web-services\\homework_01\\Contracts\\Contracts.csproj": {
+              "projectPath": "C:\\Users\\Matthew\\Documents\\Local Programming\\web-services\\homework_01\\Contracts\\Contracts.csproj"
+            },
+            "C:\\Users\\Matthew\\Documents\\Local Programming\\web-services\\homework_01\\Entities\\Entities.csproj": {
+              "projectPath": "C:\\Users\\Matthew\\Documents\\Local Programming\\web-services\\homework_01\\Entities\\Entities.csproj"
             },
             "C:\\Users\\Matthew\\Documents\\Local Programming\\web-services\\homework_01\\LoggerService\\LoggerService.csproj": {
               "projectPath": "C:\\Users\\Matthew\\Documents\\Local Programming\\web-services\\homework_01\\LoggerService\\LoggerService.csproj"
