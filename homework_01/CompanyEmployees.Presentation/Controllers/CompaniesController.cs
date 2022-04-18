@@ -17,10 +17,11 @@ namespace CompanyEmployees.Presentation.Controllers
         public async Task<IActionResult> GetCompanies([FromQuery] CompanyParameters companyParameters)
         {
             //throw new Exception("Exception");
-            var pagedResult = await _service.CompanyService.GetAllCompaniesAsync(companyParameters, trackChanges: false);
+            var linkParams = new CompanyLinkParameters(companyParameters, HttpContext);
+            var result = await _service.CompanyService.GetAllCompaniesAsync(companyParameters, linkParams, trackChanges: false);
 
-            Response.Headers.Add("X-Pagination", JsonSerializer.Serialize(pagedResult.metaData));
-            return Ok(pagedResult.companies);
+            Response.Headers.Add("X-Pagination", JsonSerializer.Serialize(result.metaData));
+            return result.linkResponse.HasLinks ? Ok(result.linkResponse.LinkedEntities) : Ok(result.linkResponse.ShapedEntities);
         }
 
 

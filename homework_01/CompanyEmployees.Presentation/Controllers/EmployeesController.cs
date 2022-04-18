@@ -20,7 +20,7 @@ namespace CompanyEmployees.Presentation.Controllers
         [ServiceFilter(typeof(ValidateMediaTypeAttribute))]
         public async Task<IActionResult> GetEmployeesForCompany(Guid companyId, [FromQuery] EmployeeParameters employeeParameters)
         {
-            var linkParams = new LinkParameters(employeeParameters, HttpContext);
+            var linkParams = new EmployeeLinkParameters(employeeParameters, HttpContext);
             var result = await _service.EmployeeService.GetEmployeesAsync(companyId, linkParams, trackChanges: false);
             Response.Headers.Add("X-Pagination", JsonSerializer.Serialize(result.metaData));
 

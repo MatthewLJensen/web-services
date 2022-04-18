@@ -22,7 +22,7 @@ namespace Service
             _employeeLinks = employeeLinks;
         }
 
-        public async Task<(LinkResponse linkResponse, MetaData metaData)> GetEmployeesAsync(Guid companyId, LinkParameters linkParameters, bool trackChanges)
+        public async Task<(LinkResponse linkResponse, MetaData metaData)> GetEmployeesAsync(Guid companyId, EmployeeLinkParameters linkParameters, bool trackChanges)
         {
             if (!linkParameters.EmployeeParameters.ValidAgeRange)
                 throw new MaxAgeRangeBadRequestException();

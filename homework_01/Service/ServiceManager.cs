@@ -8,10 +8,10 @@ public sealed class ServiceManager : IServiceManager
 {
     private readonly Lazy<ICompanyService> _companyService;
     private readonly Lazy<IEmployeeService> _employeeService;
-    public ServiceManager(IRepositoryManager repositoryManager, ILoggerManager logger, IMapper mapper, IEmployeeLinks employeeLinks)
+    public ServiceManager(IRepositoryManager repositoryManager, ILoggerManager logger, IMapper mapper, IEmployeeLinks employeeLinks, ICompanyLinks companyLinks)
 
     {
-        _companyService = new Lazy<ICompanyService>(() => new CompanyService(repositoryManager, logger, mapper));
+        _companyService = new Lazy<ICompanyService>(() => new CompanyService(repositoryManager, logger, mapper, companyLinks));
 
         _employeeService = new Lazy<IEmployeeService>(() => new EmployeeService(repositoryManager, logger, mapper, employeeLinks));
     }

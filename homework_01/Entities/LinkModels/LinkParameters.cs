@@ -1,2 +1,3 @@
 ﻿using Microsoft.AspNetCore.Http;
-public record LinkParameters(EmployeeParameters EmployeeParameters, HttpContext Context);
+public record EmployeeLinkParameters(EmployeeParameters EmployeeParameters, HttpContext Context);
+public record CompanyLinkParameters(CompanyParameters CompanyParameters, HttpContext Context);

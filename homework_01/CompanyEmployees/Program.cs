@@ -23,6 +23,7 @@ builder.Services.AddScoped<ValidationFilterAttribute>();
 builder.Services.AddScoped<IDataShaper<EmployeeDto>, DataShaper<EmployeeDto>>();
 
 builder.Services.AddScoped<IEmployeeLinks, EmployeeLinks>();
+builder.Services.AddScoped<ICompanyLinks, CompanyLinks>();
 
 builder.Services.AddControllers();
 

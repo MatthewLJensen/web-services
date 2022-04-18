@@ -11,19 +11,26 @@ namespace Service
         private readonly IRepositoryManager _repository;
         private readonly ILoggerManager _logger;
         private readonly IMapper _mapper;
-        public CompanyService(IRepositoryManager repository, ILoggerManager logger, IMapper mapper)
+        private readonly ICompanyLinks _companyLinks;
+
+        public CompanyService(IRepositoryManager repository, ILoggerManager logger, IMapper mapper, ICompanyLinks companyLinks)
 
         {
             _repository = repository;
             _logger = logger;
             _mapper = mapper;
-
+            _companyLinks = companyLinks;
         }
-        public async Task<(IEnumerable<CompanyDto> companies, MetaData metaData)> GetAllCompaniesAsync(CompanyParameters companyParameters, bool trackChanges)
+        public async Task<(LinkResponse linkResponse, MetaData metaData)> GetAllCompaniesAsync(CompanyParameters companyParameters, CompanyLinkParameters linkParameters, bool trackChanges)
         {
-            var companiesWithMetaData = await _repository.Company.GetAllCompaniesAsync(companyParameters, trackChanges);
+            var companiesWithMetaData = await _repository.Company.GetAllCompaniesAsync(linkParameters.CompanyParameters, trackChanges);
+
             var companiesDto = _mapper.Map<IEnumerable<CompanyDto>>(companiesWithMetaData);
-            return (companies: companiesDto, metaData: companiesWithMetaData.MetaData);
+            
+            var links = _companyLinks.TryGenerateLinks(companiesDto,
+            
+            linkParameters.CompanyParameters.Fields, linkParameters.Context);
+            return (linkResponse: links, metaData: companiesWithMetaData.MetaData);
         }
         public async Task<CompanyDto> GetCompanyAsync(Guid id, bool trackChanges)
         {
