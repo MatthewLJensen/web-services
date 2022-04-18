@@ -53,6 +53,7 @@ public class CompanyLinks : ICompanyLinks
             new Link(_linkGenerator.GetUriByAction(httpContext,"GetCompany",values: new { id, fields }),"self","GET"),
             new Link(_linkGenerator.GetUriByAction(httpContext,"DeleteCompany", values: new { id }),"delete_company","DELETE"),
             new Link(_linkGenerator.GetUriByAction(httpContext,"UpdateCompany", values: new { id }),"update_company","PUT"),
+            new Link(_linkGenerator.GetUriByAction(httpContext,"PartiallyUpdateCompany", values: new { id }),"partially_update_company","PATCH"),
         };
         return links;
     }

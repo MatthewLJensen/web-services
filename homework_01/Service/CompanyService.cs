@@ -26,9 +26,9 @@ namespace Service
             var companiesWithMetaData = await _repository.Company.GetAllCompaniesAsync(linkParameters.CompanyParameters, trackChanges);
 
             var companiesDto = _mapper.Map<IEnumerable<CompanyDto>>(companiesWithMetaData);
-            
+
             var links = _companyLinks.TryGenerateLinks(companiesDto,
-            
+
             linkParameters.CompanyParameters.Fields, linkParameters.Context);
             return (linkResponse: links, metaData: companiesWithMetaData.MetaData);
         }
@@ -86,13 +86,29 @@ namespace Service
             await _repository.SaveAsync();
         }
 
-       public async Task UpdateCompanyAsync(Guid companyId,
-        CompanyForUpdateDto companyForUpdate, bool trackChanges)
+        public async Task UpdateCompanyAsync(Guid companyId,
+         CompanyForUpdateDto companyForUpdate, bool trackChanges)
         {
             var company = await _repository.CompanyEmployeeChecker.GetCompanyAndCheckIfItExists(companyId, trackChanges);
 
             _mapper.Map(companyForUpdate, company);
             await _repository.SaveAsync();
         }
+
+        public async Task<(CompanyForUpdateDto companyToPatch, Company companyEntity)> GetCompanyForPatchAsync(
+        Guid companyId, bool trackChanges)
+        {
+            var company = await _repository.Company.GetCompanyAsync(companyId, trackChanges);
+            if (company is null)
+                throw new CompanyNotFoundException(companyId);
+            var companyToPatch = _mapper.Map<CompanyForUpdateDto>(company);
+            return (companyToPatch, company);
+        }
+        public async Task SaveChangesForPatchAsync(CompanyForUpdateDto companyToPatch, Company companyEntity)
+        {
+            _mapper.Map(companyToPatch, companyEntity);
+            await _repository.SaveAsync();
+        }
+
     }
 }

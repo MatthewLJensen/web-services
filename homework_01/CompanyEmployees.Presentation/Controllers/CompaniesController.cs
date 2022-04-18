@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.JsonPatch;
+using Microsoft.AspNetCore.Mvc;
 using Service.Contracts;
 using Shared.DataTransferObjects;
 using System.Text.Json;
@@ -14,6 +15,7 @@ namespace CompanyEmployees.Presentation.Controllers
 
 
         [HttpGet(Name = "GetCompanies")]
+        [ServiceFilter(typeof(ValidateMediaTypeAttribute))]
         public async Task<IActionResult> GetCompanies([FromQuery] CompanyParameters companyParameters)
         {
             //throw new Exception("Exception");
@@ -70,6 +72,21 @@ namespace CompanyEmployees.Presentation.Controllers
             await _service.CompanyService.UpdateCompanyAsync(id, company, trackChanges: true);
             return NoContent();
         }
+
+        [HttpPatch("{id:guid}")]
+        public async Task<IActionResult> PartiallyUpdateCompany(Guid id, [FromBody] JsonPatchDocument<CompanyForUpdateDto> patchDoc)
+        {
+            if (patchDoc is null)
+                return BadRequest("patchDoc sent from client is null.");
+            var result = await _service.CompanyService.GetCompanyForPatchAsync(id, trackChanges: true);
+            patchDoc.ApplyTo(result.companyToPatch);
+            TryValidateModel(result.companyToPatch);
+            if (!ModelState.IsValid)
+                return UnprocessableEntity(ModelState);
+            await _service.CompanyService.SaveChangesForPatchAsync(result.companyToPatch, result.companyEntity);
+            return NoContent();
+        }
+
 
         [HttpOptions]
         public IActionResult GetCompaniesOptions()

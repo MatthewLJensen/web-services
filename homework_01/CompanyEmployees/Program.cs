@@ -21,6 +21,7 @@ builder.Services.ConfigureRepositoryManager();
 builder.Services.AddScoped<ValidationFilterAttribute>();
 
 builder.Services.AddScoped<IDataShaper<EmployeeDto>, DataShaper<EmployeeDto>>();
+builder.Services.AddScoped<IDataShaper<CompanyDto>, DataShaper<CompanyDto>>();
 
 builder.Services.AddScoped<IEmployeeLinks, EmployeeLinks>();
 builder.Services.AddScoped<ICompanyLinks, CompanyLinks>();
