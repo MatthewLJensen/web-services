@@ -28,6 +28,8 @@ builder.Services.AddControllers();
 
 builder.Services.AddCustomMediaTypes();
 
+builder.Services.AddMemoryCache();
+
 builder.Services.ConfigureVersioning();
 
 builder.Services.ConfigureResponseCaching();
