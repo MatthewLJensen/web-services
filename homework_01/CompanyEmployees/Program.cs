@@ -38,6 +38,10 @@ builder.Services.AddHttpContextAccessor();
 
 builder.Services.ConfigureVersioning();
 
+builder.Services.AddAuthentication();
+builder.Services.ConfigureIdentity();
+builder.Services.ConfigureJWT(builder.Configuration);
+
 builder.Services.ConfigureResponseCaching();
 
 builder.Services.ConfigureHttpCacheHeaders();
@@ -100,6 +104,7 @@ app.UseCors("CorsPolicy");
 app.UseResponseCaching();
 app.UseHttpCacheHeaders();
 
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();

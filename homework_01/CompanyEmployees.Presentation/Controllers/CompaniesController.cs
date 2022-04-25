@@ -4,12 +4,14 @@ using Microsoft.AspNetCore.Mvc;
 using Service.Contracts;
 using Shared.DataTransferObjects;
 using System.Text.Json;
+using Microsoft.AspNetCore.Authorization;
 
 namespace CompanyEmployees.Presentation.Controllers
 {
     [Route("api/companies")]
     [ApiController]
     //[ResponseCache(CacheProfileName = "120SecondsDuration")]
+    //I'm not sure if Dr. A wants the authorize header for the entire controller or not...
     public class CompaniesController : ControllerBase
     {
         private readonly IServiceManager _service;
@@ -17,6 +19,7 @@ namespace CompanyEmployees.Presentation.Controllers
 
 
         [HttpGet(Name = "GetCompanies")]
+        [Authorize(Roles = "Manager")]
         [ServiceFilter(typeof(ValidateMediaTypeAttribute))]
         public async Task<IActionResult> GetCompanies([FromQuery] CompanyParameters companyParameters)
         {
