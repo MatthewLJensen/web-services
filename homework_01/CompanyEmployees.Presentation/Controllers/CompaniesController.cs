@@ -9,6 +9,7 @@ using Microsoft.AspNetCore.Authorization;
 namespace CompanyEmployees.Presentation.Controllers
 {
     [Route("api/companies")]
+    [Authorize]
     [ApiController]
     //[ResponseCache(CacheProfileName = "120SecondsDuration")]
     //I'm not sure if Dr. A wants the authorize header for the entire controller or not...
@@ -19,7 +20,7 @@ namespace CompanyEmployees.Presentation.Controllers
 
 
         [HttpGet(Name = "GetCompanies")]
-        [Authorize(Roles = "Manager")]
+        //[Authorize(Roles = "Manager")]
         [ServiceFilter(typeof(ValidateMediaTypeAttribute))]
         public async Task<IActionResult> GetCompanies([FromQuery] CompanyParameters companyParameters)
         {

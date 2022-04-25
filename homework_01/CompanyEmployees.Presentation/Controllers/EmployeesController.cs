@@ -3,11 +3,13 @@ using Service.Contracts;
 using Shared.DataTransferObjects;
 using Microsoft.AspNetCore.JsonPatch;
 using System.Text.Json;
+using Microsoft.AspNetCore.Authorization;
 
 namespace CompanyEmployees.Presentation.Controllers
 {
 
     [Route("api/companies/{companyId}/employees")]
+    [Authorize]
     [ApiController]
     public class EmployeesController : ControllerBase
     {
