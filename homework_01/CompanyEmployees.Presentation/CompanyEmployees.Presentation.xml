@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CompanyEmployees.Presentation</name>
+    </assembly>
+    <members>
+        <member name="M:CompanyEmployees.Presentation.Controllers.CompaniesController.GetCompanies(CompanyParameters)">
+            <summary>
+            Gets the list of all companies
+            </summary>
+            <returns>The companies list</returns>
+        </member>
+        <member name="M:CompanyEmployees.Presentation.Controllers.CompaniesController.GetCompany(System.Guid)">
+            <summary>
+            Gets a specific company, based on the ID that was passed in
+            </summary>
+            <returns>The specified company</returns>
+        </member>
+        <member name="M:CompanyEmployees.Presentation.Controllers.CompaniesController.CreateCompany(Shared.DataTransferObjects.CompanyForCreationDto)">
+            <summary>
+            Creates a newly created company
+            </summary>
+            <param name="company"></param>
+            <returns>A newly created company</returns>
+            <response code="201">Returns the newly created item</response>
+            <response code="400">If the item is null</response>
+            <response code="422">If the model is invalid</response>
+        </member>
+        <member name="M:CompanyEmployees.Presentation.Controllers.CompaniesController.GetCompanyCollection(System.Collections.Generic.IEnumerable{System.Guid})">
+            <summary>
+            Gets a collection of companies
+            </summary>
+            <returns>A collection of companies</returns>
+        </member>
+        <member name="M:CompanyEmployees.Presentation.Controllers.CompaniesController.CreateCompanyCollection(System.Collections.Generic.IEnumerable{Shared.DataTransferObjects.CompanyForCreationDto})">
+            <summary>
+            Creates a collection of companies
+            </summary>
+            <returns>The companies that were created by the action</returns>
+        </member>
+        <member name="M:CompanyEmployees.Presentation.Controllers.CompaniesController.DeleteCompany(System.Guid)">
+            <summary>
+            Deletes the company with the specificed ID
+            </summary>
+            <returns>204 No Content</returns>
+            <response code="204">If the company is deleted</response>
+        </member>
+        <member name="M:CompanyEmployees.Presentation.Controllers.CompaniesController.UpdateCompany(System.Guid,Shared.DataTransferObjects.CompanyForUpdateDto)">
+            <summary>
+            Updates company
+            </summary>
+            <returns>204 No Content</returns>
+        </member>
+        <member name="M:CompanyEmployees.Presentation.Controllers.CompaniesController.PartiallyUpdateCompany(System.Guid,Microsoft.AspNetCore.JsonPatch.JsonPatchDocument{Shared.DataTransferObjects.CompanyForUpdateDto})">
+            <summary>
+            Patches company
+            </summary>
+            <returns>204 No Content</returns>
+        </member>
+        <member name="M:CompanyEmployees.Presentation.Controllers.CompaniesController.GetCompaniesOptions">
+            <summary>
+            Returns API options
+            </summary>
+            <returns>Response Headers</returns>
+        </member>
+    </members>
+</doc>

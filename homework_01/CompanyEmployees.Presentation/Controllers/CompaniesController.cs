@@ -11,6 +11,7 @@ namespace CompanyEmployees.Presentation.Controllers
     [Route("api/companies")]
     [Authorize]
     [ApiController]
+    [ApiExplorerSettings(GroupName = "v1")]
     //[ResponseCache(CacheProfileName = "120SecondsDuration")]
     //I'm not sure if Dr. A wants the authorize header for the entire controller or not...
     public class CompaniesController : ControllerBase
@@ -18,7 +19,10 @@ namespace CompanyEmployees.Presentation.Controllers
         private readonly IServiceManager _service;
         public CompaniesController(IServiceManager service) => _service = service;
 
-
+        /// <summary>
+        /// Gets the list of all companies
+        /// </summary>
+        /// <returns>The companies list</returns>
         [HttpGet(Name = "GetCompanies")]
         //[Authorize(Roles = "Manager")]
         [ServiceFilter(typeof(ValidateMediaTypeAttribute))]
@@ -32,7 +36,10 @@ namespace CompanyEmployees.Presentation.Controllers
             return result.linkResponse.HasLinks ? Ok(result.linkResponse.LinkedEntities) : Ok(result.linkResponse.ShapedEntities);
         }
 
-
+        /// <summary>
+        /// Gets a specific company, based on the ID that was passed in
+        /// </summary>
+        /// <returns>The specified company</returns>
         [HttpGet("{id:guid}", Name = "CompanyById")]
         [HttpCacheExpiration(CacheLocation = CacheLocation.Public, MaxAge = 60)]
         [HttpCacheValidation(MustRevalidate = false)]
@@ -42,7 +49,18 @@ namespace CompanyEmployees.Presentation.Controllers
             return Ok(company);
         }
 
+        /// <summary>
+        /// Creates a newly created company
+        /// </summary>
+        /// <param name="company"></param>
+        /// <returns>A newly created company</returns>
+        /// <response code="201">Returns the newly created item</response>
+        /// <response code="400">If the item is null</response>
+        /// <response code="422">If the model is invalid</response>
         [HttpPost(Name = "CreateCompany")]
+        [ProducesResponseType(201)]
+        [ProducesResponseType(400)]
+        [ProducesResponseType(422)]
         [ServiceFilter(typeof(ValidationFilterAttribute))]
         public async Task<IActionResult> CreateCompany([FromBody] CompanyForCreationDto company)
         {
@@ -51,6 +69,10 @@ namespace CompanyEmployees.Presentation.Controllers
             createdCompany);
         }
 
+        /// <summary>
+        /// Gets a collection of companies
+        /// </summary>
+        /// <returns>A collection of companies</returns>
         [HttpGet("collection/({ids})", Name = "CompanyCollection")]
         public async Task<IActionResult> GetCompanyCollection ([ModelBinder(BinderType = typeof(ArrayModelBinder))] IEnumerable<Guid> ids)
         {
@@ -58,6 +80,10 @@ namespace CompanyEmployees.Presentation.Controllers
             return Ok(companies);
         }
 
+        /// <summary>
+        /// Creates a collection of companies
+        /// </summary>
+        /// <returns>The companies that were created by the action</returns>
         [HttpPost("collection")]
         public async Task<IActionResult> CreateCompanyCollection ([FromBody] IEnumerable<CompanyForCreationDto> companyCollection)
         {
@@ -66,13 +92,23 @@ namespace CompanyEmployees.Presentation.Controllers
             result.companies);
         }
 
+        /// <summary>
+        /// Deletes the company with the specificed ID
+        /// </summary>
+        /// <returns>204 No Content</returns>
+        /// <response code="204">If the company is deleted</response>
         [HttpDelete("{id:guid}")]
+        [ProducesResponseType(204)]
         public async Task<IActionResult> DeleteCompany(Guid id)
         {
             await _service.CompanyService.DeleteCompanyAsync(id, trackChanges: false);
             return NoContent();
         }
 
+        /// <summary>
+        /// Updates company
+        /// </summary>
+        /// <returns>204 No Content</returns>
         [HttpPut("{id:guid}")]
         [ServiceFilter(typeof(ValidationFilterAttribute))]
         public async Task<IActionResult> UpdateCompany(Guid id, [FromBody] CompanyForUpdateDto company)
@@ -81,6 +117,10 @@ namespace CompanyEmployees.Presentation.Controllers
             return NoContent();
         }
 
+        /// <summary>
+        /// Patches company
+        /// </summary>
+        /// <returns>204 No Content</returns>
         [HttpPatch("{id:guid}")]
         public async Task<IActionResult> PartiallyUpdateCompany(Guid id, [FromBody] JsonPatchDocument<CompanyForUpdateDto> patchDoc)
         {
@@ -95,7 +135,10 @@ namespace CompanyEmployees.Presentation.Controllers
             return NoContent();
         }
 
-
+        /// <summary>
+        /// Returns API options
+        /// </summary>
+        /// <returns>Response Headers</returns>
         [HttpOptions]
         public IActionResult GetCompaniesOptions()
         {

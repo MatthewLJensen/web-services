@@ -53,6 +53,7 @@ builder.Services.AddScoped<ValidateMediaTypeAttribute>();
 
 builder.Services.ConfigureRepositoryManager();
 
+builder.Services.ConfigureSwagger();
 
 builder.Services.ConfigureServiceManager();
 
@@ -101,6 +102,14 @@ app.UseForwardedHeaders(new ForwardedHeadersOptions
 {
     ForwardedHeaders = ForwardedHeaders.All
 });
+
+app.UseSwagger();
+app.UseSwaggerUI(s =>
+{
+    s.SwaggerEndpoint("/swagger/v1/swagger.json", "Code Maze API v1");
+    s.SwaggerEndpoint("/swagger/v2/swagger.json", "Code Maze API v2");
+});
+
 
 app.UseIpRateLimiting();
 app.UseCors("CorsPolicy");
