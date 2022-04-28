@@ -1,18 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Matthew\\Documents\\Local Programming\\Web Services\\homework_01\\Tests\\Tests.csproj": {}
+    "C:\\Users\\Matthew\\Documents\\Local Programming\\web-services\\homework_01\\Tests\\Tests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Matthew\\Documents\\Local Programming\\Web Services\\homework_01\\Contracts\\Contracts.csproj": {
+    "C:\\Users\\Matthew\\Documents\\Local Programming\\web-services\\homework_01\\Contracts\\Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Matthew\\Documents\\Local Programming\\Web Services\\homework_01\\Contracts\\Contracts.csproj",
+        "projectUniqueName": "C:\\Users\\Matthew\\Documents\\Local Programming\\web-services\\homework_01\\Contracts\\Contracts.csproj",
         "projectName": "Contracts",
-        "projectPath": "C:\\Users\\Matthew\\Documents\\Local Programming\\Web Services\\homework_01\\Contracts\\Contracts.csproj",
+        "projectPath": "C:\\Users\\Matthew\\Documents\\Local Programming\\web-services\\homework_01\\Contracts\\Contracts.csproj",
         "packagesPath": "C:\\Users\\Matthew\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Matthew\\Documents\\Local Programming\\Web Services\\homework_01\\Contracts\\obj\\",
+        "outputPath": "C:\\Users\\Matthew\\Documents\\Local Programming\\web-services\\homework_01\\Contracts\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
           "C:\\Users\\Matthew\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -28,11 +31,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Matthew\\Documents\\Local Programming\\Web Services\\homework_01\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Users\\Matthew\\Documents\\Local Programming\\Web Services\\homework_01\\Entities\\Entities.csproj"
+              "C:\\Users\\Matthew\\Documents\\Local Programming\\web-services\\homework_01\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\Matthew\\Documents\\Local Programming\\web-services\\homework_01\\Entities\\Entities.csproj"
               },
-              "C:\\Users\\Matthew\\Documents\\Local Programming\\Web Services\\homework_01\\Shared\\Shared.csproj": {
-                "projectPath": "C:\\Users\\Matthew\\Documents\\Local Programming\\Web Services\\homework_01\\Shared\\Shared.csproj"
+              "C:\\Users\\Matthew\\Documents\\Local Programming\\web-services\\homework_01\\Shared\\Shared.csproj": {
+                "projectPath": "C:\\Users\\Matthew\\Documents\\Local Programming\\web-services\\homework_01\\Shared\\Shared.csproj"
               }
             }
           }
@@ -65,15 +68,18 @@
         }
       }
     },
-    "C:\\Users\\Matthew\\Documents\\Local Programming\\Web Services\\homework_01\\Entities\\Entities.csproj": {
+    "C:\\Users\\Matthew\\Documents\\Local Programming\\web-services\\homework_01\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Matthew\\Documents\\Local Programming\\Web Services\\homework_01\\Entities\\Entities.csproj",
+        "projectUniqueName": "C:\\Users\\Matthew\\Documents\\Local Programming\\web-services\\homework_01\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "C:\\Users\\Matthew\\Documents\\Local Programming\\Web Services\\homework_01\\Entities\\Entities.csproj",
+        "projectPath": "C:\\Users\\Matthew\\Documents\\Local Programming\\web-services\\homework_01\\Entities\\Entities.csproj",
         "packagesPath": "C:\\Users\\Matthew\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Matthew\\Documents\\Local Programming\\Web Services\\homework_01\\Entities\\obj\\",
+        "outputPath": "C:\\Users\\Matthew\\Documents\\Local Programming\\web-services\\homework_01\\Entities\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
           "C:\\Users\\Matthew\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -89,8 +95,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Matthew\\Documents\\Local Programming\\Web Services\\homework_01\\Shared\\Shared.csproj": {
-                "projectPath": "C:\\Users\\Matthew\\Documents\\Local Programming\\Web Services\\homework_01\\Shared\\Shared.csproj"
+              "C:\\Users\\Matthew\\Documents\\Local Programming\\web-services\\homework_01\\Shared\\Shared.csproj": {
+                "projectPath": "C:\\Users\\Matthew\\Documents\\Local Programming\\web-services\\homework_01\\Shared\\Shared.csproj"
               }
             }
           }
@@ -133,15 +139,18 @@
         }
       }
     },
-    "C:\\Users\\Matthew\\Documents\\Local Programming\\Web Services\\homework_01\\Shared\\Shared.csproj": {
+    "C:\\Users\\Matthew\\Documents\\Local Programming\\web-services\\homework_01\\Shared\\Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Matthew\\Documents\\Local Programming\\Web Services\\homework_01\\Shared\\Shared.csproj",
+        "projectUniqueName": "C:\\Users\\Matthew\\Documents\\Local Programming\\web-services\\homework_01\\Shared\\Shared.csproj",
         "projectName": "Shared",
-        "projectPath": "C:\\Users\\Matthew\\Documents\\Local Programming\\Web Services\\homework_01\\Shared\\Shared.csproj",
+        "projectPath": "C:\\Users\\Matthew\\Documents\\Local Programming\\web-services\\homework_01\\Shared\\Shared.csproj",
         "packagesPath": "C:\\Users\\Matthew\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Matthew\\Documents\\Local Programming\\Web Services\\homework_01\\Shared\\obj\\",
+        "outputPath": "C:\\Users\\Matthew\\Documents\\Local Programming\\web-services\\homework_01\\Shared\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
           "C:\\Users\\Matthew\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -187,15 +196,18 @@
         }
       }
     },
-    "C:\\Users\\Matthew\\Documents\\Local Programming\\Web Services\\homework_01\\Tests\\Tests.csproj": {
+    "C:\\Users\\Matthew\\Documents\\Local Programming\\web-services\\homework_01\\Tests\\Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Matthew\\Documents\\Local Programming\\Web Services\\homework_01\\Tests\\Tests.csproj",
+        "projectUniqueName": "C:\\Users\\Matthew\\Documents\\Local Programming\\web-services\\homework_01\\Tests\\Tests.csproj",
         "projectName": "Tests",
-        "projectPath": "C:\\Users\\Matthew\\Documents\\Local Programming\\Web Services\\homework_01\\Tests\\Tests.csproj",
+        "projectPath": "C:\\Users\\Matthew\\Documents\\Local Programming\\web-services\\homework_01\\Tests\\Tests.csproj",
         "packagesPath": "C:\\Users\\Matthew\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Matthew\\Documents\\Local Programming\\Web Services\\homework_01\\Tests\\obj\\",
+        "outputPath": "C:\\Users\\Matthew\\Documents\\Local Programming\\web-services\\homework_01\\Tests\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
           "C:\\Users\\Matthew\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -211,8 +223,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Matthew\\Documents\\Local Programming\\Web Services\\homework_01\\Contracts\\Contracts.csproj": {
-                "projectPath": "C:\\Users\\Matthew\\Documents\\Local Programming\\Web Services\\homework_01\\Contracts\\Contracts.csproj"
+              "C:\\Users\\Matthew\\Documents\\Local Programming\\web-services\\homework_01\\Contracts\\Contracts.csproj": {
+                "projectPath": "C:\\Users\\Matthew\\Documents\\Local Programming\\web-services\\homework_01\\Contracts\\Contracts.csproj"
               }
             }
           }

@@ -55,7 +55,12 @@
       "ProjectGuid": "cd799c0b-002f-411b-b5e3-563941c732b0",
       "DisplayName": "Shared",
       "ColorIndex": 9
+    },
+    "52259a39-4a13-4c44-bd87-e20e2e36705f": {
+      "ProjectGuid": "52259a39-4a13-4c44-bd87-e20e2e36705f",
+      "DisplayName": "Tests",
+      "ColorIndex": 10
     }
   },
-  "NextColorIndex": 10
+  "NextColorIndex": 11
 }
